@@ -18,33 +18,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DNR Fish Game" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N9t-eD-rZb">
-                                <rect key="frame" x="392" y="158" width="410" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jdA-ki-fgp">
-                                <rect key="frame" x="99" y="377" width="350" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Play &quot;Find the Fish&quot;!"/>
-                                <connections>
-                                    <segue destination="fkx-7C-FDy" kind="showDetail" id="WCn-Ky-GmR"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EF7-1o-bZP">
-                                <rect key="frame" x="760" y="377" width="350" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EF7-1o-bZP">
+                                <rect key="frame" x="701.5" y="393" width="323" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Play &quot;Fish Puzzle Game&quot;!"/>
                                 <connections>
                                     <segue destination="cMO-4r-Bev" kind="showDetail" id="L4i-JZ-kTA"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jdA-ki-fgp">
+                                <rect key="frame" x="149" y="393" width="258" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Play &quot;Find the Fish&quot;!"/>
+                                <connections>
+                                    <segue destination="fkx-7C-FDy" kind="showDetail" id="WCn-Ky-GmR"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DNR Fish Game" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N9t-eD-rZb">
+                                <rect key="frame" x="355" y="172" width="402" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="N9t-eD-rZb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-209" id="IOr-I6-5eD"/>
+                            <constraint firstItem="jdA-ki-fgp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-278" id="UaL-9t-wkx"/>
+                            <constraint firstItem="N9t-eD-rZb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YBh-hx-23J"/>
+                            <constraint firstItem="jdA-ki-fgp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dJ5-DN-nXT"/>
+                            <constraint firstItem="EF7-1o-bZP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="eMa-0v-lAC"/>
+                            <constraint firstItem="EF7-1o-bZP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="307" id="zSM-Tf-1go"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="1nm-MO-wOe"/>
@@ -61,30 +66,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Now in Find the Fish Game" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uiN-Ce-ELl">
-                                <rect key="frame" x="315" y="387" width="565" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Now in Find the Fish Game" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uiN-Ce-ELl">
+                                <rect key="frame" x="273.5" y="387" width="565" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pms-h3-GD5">
-                                <rect key="frame" x="530" y="272" width="135" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="I'M A FISH"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="showDetail" id="G3Y-Rt-9Jw"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="uiN-Ce-ELl" firstAttribute="centerY" secondItem="Yg0-Mq-djr" secondAttribute="centerY" id="Jzf-Oy-3Ca"/>
+                            <constraint firstItem="uiN-Ce-ELl" firstAttribute="centerX" secondItem="Yg0-Mq-djr" secondAttribute="centerX" id="w8L-Eh-paP"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6A0-w0-czj"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="lpj-rH-ybg" appends="YES" id="1dM-Ov-zfm"/>
+                            <outletCollection property="gestureRecognizers" destination="CXP-UC-oyI" appends="YES" id="GTC-YU-I9y"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="etk-AM-1aa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="lpj-rH-ybg"/>
+                <tapGestureRecognizer id="CXP-UC-oyI"/>
+                <tapGestureRecognizer id="rFY-wT-GF0"/>
             </objects>
-            <point key="canvasLocation" x="-310" y="871"/>
+            <point key="canvasLocation" x="-310.25179856115108" y="870.50359712230227"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="9qD-c1-7uo">
@@ -94,15 +101,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Now in Puzzle Game" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="apU-5C-TNI">
-                                <rect key="frame" x="376" y="387" width="443" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Now in Puzzle Game" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="apU-5C-TNI">
+                                <rect key="frame" x="334.5" y="386.5" width="443" height="61"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="51"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="apU-5C-TNI" firstAttribute="centerY" secondItem="IlX-AX-NYD" secondAttribute="centerY" id="41O-on-jIf"/>
+                            <constraint firstItem="apU-5C-TNI" firstAttribute="centerX" secondItem="IlX-AX-NYD" secondAttribute="centerX" id="MJm-jf-xdz"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="REe-Kf-ItL"/>
                     </view>
                     <navigationItem key="navigationItem" id="i0U-sf-ZYY"/>
