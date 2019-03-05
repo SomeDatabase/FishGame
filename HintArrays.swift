@@ -15,4 +15,8 @@ let cohoSalmonHints = ["I have small black spots on my back and tail","I can be 
 let sturgHints = ["I primarily eat insect larvae, crayfish, snails, clam, and leeches","My typical lifespan is 55 years","I have four barbels on my snout"]
 let lkTroutHints = ["I have light spots on my back and tail","I can be found in all 5 Great Lakes","I prefer cold water"]
 let muskHints = ["I prefer slightly cooler water, but I can withstand water of up to 90 F","My jaw is shaped like a duck’s bill","I am primarily located in Western Upper Peninsula"]
-let rnbwTroutHints = ["","",""]
+let rnbwTroutHints = ["I have a pink stripe on my body","I primarily live in clear-water lakes throughout Michigan"]
+let stlhdTroutHints = ["I am born in rivers, but spend most of my life in the great lakes","My life expectancy is 4 to 6 years"]
+let wllyHints = ["I spawn in rock shoals","I am a popular choice for sport fishing because I feed all year round"]
+
+//dictionary
