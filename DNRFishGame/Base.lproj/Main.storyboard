@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DNRFishGame" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -61,71 +61,134 @@
         <!--Find Fish-->
         <scene sceneID="G8a-y2-OWy">
             <objects>
-                <viewController id="fkx-7C-FDy" customClass="FindFish" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Yg0-Mq-djr">
+                <viewController id="fkx-7C-FDy" customClass="FindFish" customModule="DNRFishGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleAspectFit" id="Yg0-Mq-djr">
                         <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IzR-d7-bxD">
-                                <rect key="frame" x="687" y="194" width="298" height="183"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="underwater.png" translatesAutoresizingMaskIntoConstraints="NO" id="sDn-Ql-Rce">
+                                <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="ClownFish.jpg"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DxU-OP-5pl">
-                                <rect key="frame" x="115" y="214" width="301" height="163"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLh-j7-UeD">
+                                <rect key="frame" x="93" y="131" width="250" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="GoldFish.jpg"/>
+                                <state key="normal" image="Atlantic_Salmon.png"/>
+                                <connections>
+                                    <action selector="SelectFish1:" destination="fkx-7C-FDy" eventType="touchUpInside" id="evO-zj-SVi"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FaE-UZ-Prf">
-                                <rect key="frame" x="382" y="474" width="296" height="165"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Congrats!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mt4-4A-1dV">
+                                <rect key="frame" x="334" y="352" width="445" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="BlueFish.jpg"/>
+                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="100"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74e-vt-AQi">
+                                <rect key="frame" x="286" y="620" width="250" height="151"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Black_Crappie_Male.jpg"/>
+                                <connections>
+                                    <action selector="SelectFish2:" destination="fkx-7C-FDy" eventType="touchUpInside" id="H95-yw-L4h"/>
+                                </connections>
                             </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <gestureRecognizers/>
-                        <viewLayoutGuide key="safeArea" id="6A0-w0-czj"/>
-                        <connections>
-                            <outlet property="GoldFishTouch" destination="DxU-OP-5pl" id="ODK-Wb-vtd"/>
-                        </connections>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="etk-AM-1aa" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-316" y="871"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="9qD-c1-7uo">
-            <objects>
-                <viewController id="cMO-4r-Bev" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="IlX-AX-NYD">
-                        <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Now in Puzzle Game" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="apU-5C-TNI">
-                                <rect key="frame" x="334.5" y="386.5" width="443" height="61"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="51"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CKG-hy-Ptx">
+                                <rect key="frame" x="820" y="231" width="250" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Brown_Trout.jpg"/>
+                                <connections>
+                                    <action selector="SelectFish3:" destination="fkx-7C-FDy" eventType="touchUpInside" id="6nQ-mM-kLE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xlv-dX-rbw">
+                                <rect key="frame" x="300" y="525" width="223" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="Play Again">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Playagain:" destination="fkx-7C-FDy" eventType="touchUpInside" id="7BN-Xh-3J2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="73A-jQ-t2u">
+                                <rect key="frame" x="689" y="525" width="129" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="showDetail" id="sIR-MS-t0n"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Find Fish: ***" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zVI-s5-9Ky">
+                                <rect key="frame" x="20" y="20" width="276" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
+                        <gestureRecognizers/>
+                        <viewLayoutGuide key="safeArea" id="6A0-w0-czj"/>
+                    </view>
+                    <connections>
+                        <outlet property="home" destination="73A-jQ-t2u" id="BlH-bS-C39"/>
+                        <outlet property="playagain" destination="xlv-dX-rbw" id="5RR-aR-DcN"/>
+                        <outlet property="targetfish" destination="zVI-s5-9Ky" id="87s-8r-5ds"/>
+                        <outlet property="textfield" destination="Mt4-4A-1dV" id="KiN-EU-lgc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="etk-AM-1aa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-316.18705035971226" y="870.50359712230227"/>
+        </scene>
+        <!--Fish Puzzle-->
+        <scene sceneID="9qD-c1-7uo">
+            <objects>
+                <viewController id="cMO-4r-Bev" customClass="FishPuzzle" customModule="DNRFishGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IlX-AX-NYD">
+                        <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="underwater.png" translatesAutoresizingMaskIntoConstraints="NO" id="kMc-2c-60l">
+                                <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NoX-jE-b4e">
+                                <rect key="frame" x="72" y="353" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9XC-Pz-37r">
+                                <rect key="frame" x="436" y="353" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2UH-0H-bBx">
+                                <rect key="frame" x="798" y="353" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="apU-5C-TNI" firstAttribute="centerY" secondItem="IlX-AX-NYD" secondAttribute="centerY" id="41O-on-jIf"/>
-                            <constraint firstItem="apU-5C-TNI" firstAttribute="centerX" secondItem="IlX-AX-NYD" secondAttribute="centerX" id="MJm-jf-xdz"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="REe-Kf-ItL"/>
                     </view>
                     <navigationItem key="navigationItem" id="i0U-sf-ZYY"/>
+                    <connections>
+                        <outlet property="Fish1" destination="NoX-jE-b4e" id="Mla-Az-hOi"/>
+                        <outlet property="Fish2" destination="9XC-Pz-37r" id="p9Q-64-cqD"/>
+                        <outlet property="Fish3" destination="2UH-0H-bBx" id="UUz-dK-sD7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jbG-Un-NoY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="561" y="871"/>
+            <point key="canvasLocation" x="560.61151079136687" y="870.50359712230227"/>
         </scene>
     </scenes>
     <resources>
-        <image name="BlueFish.jpg" width="296" height="165"/>
-        <image name="ClownFish.jpg" width="298" height="183"/>
-        <image name="GoldFish.jpg" width="300" height="167"/>
+        <image name="Atlantic_Salmon.png" width="250" height="99"/>
+        <image name="Black_Crappie_Male.jpg" width="250" height="151"/>
+        <image name="Brown_Trout.jpg" width="250" height="101"/>
+        <image name="underwater.png" width="1920" height="1080"/>
     </resources>
 </document>
