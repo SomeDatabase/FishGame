@@ -78,27 +78,92 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLh-j7-UeD">
-                                <rect key="frame" x="93" y="131" width="250" height="99"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLh-j7-UeD">
+                                <rect key="frame" x="33" y="99" width="250" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Atlantic Salmon (Cleaned).png"/>
                                 <connections>
-                                    <action selector="SelectFish1:" destination="fkx-7C-FDy" eventType="touchUpInside" id="evO-zj-SVi"/>
+                                    <action selector="SelectFish0:" destination="fkx-7C-FDy" eventType="touchUpInside" id="4z4-FO-1Qs"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Congrats!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mt4-4A-1dV">
-                                <rect key="frame" x="334" y="352" width="445" height="130"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="100"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CKG-hy-Ptx">
-                                <rect key="frame" x="820" y="231" width="250" height="101"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CKG-hy-Ptx">
+                                <rect key="frame" x="568" y="100" width="250" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Brown Trout (Cleaned).png"/>
                                 <connections>
-                                    <action selector="SelectFish3:" destination="fkx-7C-FDy" eventType="touchUpInside" id="6nQ-mM-kLE"/>
+                                    <action selector="SelectFish2:" destination="fkx-7C-FDy" eventType="touchUpInside" id="rBu-DU-PWz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74e-vt-AQi">
+                                <rect key="frame" x="300" y="99" width="250" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Brook Trout (Cleaned).png"/>
+                                <connections>
+                                    <action selector="SelectFish1:" destination="fkx-7C-FDy" eventType="touchUpInside" id="yld-im-NIE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8H1-IM-b5Y">
+                                <rect key="frame" x="33" y="202" width="250" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Chinook Salmon (Cleaned).png"/>
+                                <connections>
+                                    <action selector="SelectFish3:" destination="fkx-7C-FDy" eventType="touchUpInside" id="txe-T9-Dp9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sAo-Ql-jLJ">
+                                <rect key="frame" x="300" y="208" width="250" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Coho Salmon (Cleaned).png"/>
+                                <connections>
+                                    <action selector="SelectFish4:" destination="fkx-7C-FDy" eventType="touchUpInside" id="Gsw-cD-uAn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dck-fB-uqf">
+                                <rect key="frame" x="33" y="314" width="250" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Lake Trout (Cleaned).png"/>
+                                <connections>
+                                    <action selector="SelectFish6:" destination="fkx-7C-FDy" eventType="touchUpInside" id="2KT-OT-BXm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jfa-0H-ulJ">
+                                <rect key="frame" x="300" y="314" width="250" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Muskellunge.png"/>
+                                <connections>
+                                    <action selector="SelectFish7:" destination="fkx-7C-FDy" eventType="touchUpInside" id="7fD-nh-Fc5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6rC-AH-oiG">
+                                <rect key="frame" x="568" y="314" width="250" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Rainbow Trout (Cleaned).png"/>
+                                <connections>
+                                    <action selector="SelectFish8:" destination="fkx-7C-FDy" eventType="touchUpInside" id="JOm-fn-qGf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="16h-Ia-PQX">
+                                <rect key="frame" x="33" y="422" width="250" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Steelhead Trout (Cleaned).png"/>
+                                <connections>
+                                    <action selector="SelectFish9:" destination="fkx-7C-FDy" eventType="touchUpInside" id="awl-yj-6dL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Re0-sZ-t8W">
+                                <rect key="frame" x="300" y="422" width="250" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Walleye.png"/>
+                                <connections>
+                                    <action selector="SelectFish10:" destination="fkx-7C-FDy" eventType="touchUpInside" id="QhS-9P-Nml"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5O2-Ca-J34">
+                                <rect key="frame" x="568" y="208" width="250" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Lake Sturgeon.png"/>
+                                <connections>
+                                    <action selector="SelectFish5:" destination="fkx-7C-FDy" eventType="touchUpInside" id="ZKl-cs-G5V"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xlv-dX-rbw">
@@ -124,25 +189,35 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Find Fish: ***" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zVI-s5-9Ky">
-                                <rect key="frame" x="20" y="20" width="276" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="20" y="20" width="1072" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74e-vt-AQi">
-                                <rect key="frame" x="300" y="660" width="250" height="103"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Brook Trout (Cleaned).png"/>
-                                <connections>
-                                    <action selector="SelectFish2:" destination="fkx-7C-FDy" eventType="touchUpInside" id="H95-yw-L4h"/>
-                                </connections>
-                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Good Job!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mt4-4A-1dV">
+                                <rect key="frame" x="320" y="352" width="473" height="130"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="100"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="6A0-w0-czj"/>
                     </view>
                     <connections>
+                        <outlet property="AtlanticSalmon" destination="aLh-j7-UeD" id="t5A-W8-A0B"/>
+                        <outlet property="BrookTrout" destination="74e-vt-AQi" id="wtt-hT-4g5"/>
+                        <outlet property="BrownTrout" destination="CKG-hy-Ptx" id="ZzB-zV-Rlq"/>
+                        <outlet property="ChinookSalmon" destination="8H1-IM-b5Y" id="ZTF-Ep-pjD"/>
+                        <outlet property="CohoSalmon" destination="sAo-Ql-jLJ" id="gxQ-aN-zjs"/>
+                        <outlet property="LakeSturgeon" destination="5O2-Ca-J34" id="RZu-AH-DTP"/>
+                        <outlet property="LakeTrout" destination="Dck-fB-uqf" id="N97-Lo-KH9"/>
+                        <outlet property="Muskellunge" destination="Jfa-0H-ulJ" id="T9k-h2-0ep"/>
+                        <outlet property="RainbowTrout" destination="6rC-AH-oiG" id="Buh-aF-V5h"/>
+                        <outlet property="SteelheadTrout" destination="16h-Ia-PQX" id="Owp-vS-dRl"/>
+                        <outlet property="Walleye" destination="Re0-sZ-t8W" id="wqJ-XU-iLG"/>
                         <outlet property="home" destination="73A-jQ-t2u" id="BlH-bS-C39"/>
                         <outlet property="playagain" destination="xlv-dX-rbw" id="5RR-aR-DcN"/>
                         <outlet property="targetfish" destination="zVI-s5-9Ky" id="87s-8r-5ds"/>
@@ -197,6 +272,14 @@
         <image name="Atlantic Salmon (Cleaned).png" width="250" height="99"/>
         <image name="Brook Trout (Cleaned).png" width="250" height="103"/>
         <image name="Brown Trout (Cleaned).png" width="250" height="101"/>
+        <image name="Chinook Salmon (Cleaned).png" width="250" height="102"/>
+        <image name="Coho Salmon (Cleaned).png" width="250" height="93"/>
+        <image name="Lake Sturgeon.png" width="600" height="147"/>
+        <image name="Lake Trout (Cleaned).png" width="250" height="107"/>
+        <image name="Muskellunge.png" width="578" height="198"/>
+        <image name="Rainbow Trout (Cleaned).png" width="250" height="102"/>
+        <image name="Steelhead Trout (Cleaned).png" width="250" height="108"/>
+        <image name="Walleye.png" width="437" height="198"/>
         <image name="underwater.png" width="1920" height="1080"/>
     </resources>
 </document>
