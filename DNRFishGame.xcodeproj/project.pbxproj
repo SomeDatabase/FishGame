@@ -19,13 +19,13 @@
 		3F8354DE222F1D4600BFA45E /* Chinook Salmon (Cleaned).png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8354D3222F1D4600BFA45E /* Chinook Salmon (Cleaned).png */; };
 		3F8354DF222F1D4600BFA45E /* Lake Sturgeon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8354D4222F1D4600BFA45E /* Lake Sturgeon.png */; };
 		3FFE84F22218A05700FA379E /* underwater.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFE84F12218A05700FA379E /* underwater.png */; };
-		3FFE84F42218A42700FA379E /* Atlantic_Salmon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFE84F32218A42600FA379E /* Atlantic_Salmon.png */; };
-		BCA1E9A3222F157A003BA2B4 /* HintArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA1E9A2222F157A003BA2B4 /* HintArrays.swift */; };
 		BCAD7DDE2206244F000011E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD7DDD2206244F000011E5 /* AppDelegate.swift */; };
 		BCAD7DE02206244F000011E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD7DDF2206244F000011E5 /* ViewController.swift */; };
 		BCAD7DE32206244F000011E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCAD7DE12206244F000011E5 /* Main.storyboard */; };
 		BCAD7DE522062451000011E5 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = BCAD7DE422062451000011E5 /* Assets */; };
 		BCAD7DE822062451000011E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCAD7DE622062451000011E5 /* LaunchScreen.storyboard */; };
+		BCB534FD224178F9006A8766 /* PuzzleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCB534FC224178F9006A8766 /* PuzzleView.xib */; };
+		BCB534FF2241793F006A8766 /* PuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB534FE2241793F006A8766 /* PuzzleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,8 +41,6 @@
 		3F8354D3222F1D4600BFA45E /* Chinook Salmon (Cleaned).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chinook Salmon (Cleaned).png"; sourceTree = "<group>"; };
 		3F8354D4222F1D4600BFA45E /* Lake Sturgeon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lake Sturgeon.png"; sourceTree = "<group>"; };
 		3FFE84F12218A05700FA379E /* underwater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = underwater.png; sourceTree = "<group>"; };
-		3FFE84F32218A42600FA379E /* Atlantic_Salmon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Atlantic_Salmon.png; sourceTree = "<group>"; };
-		BCA1E9A2222F157A003BA2B4 /* HintArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintArrays.swift; sourceTree = "<group>"; };
 		BCAD7DDA2206244F000011E5 /* DNRFishGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNRFishGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCAD7DDD2206244F000011E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCAD7DDF2206244F000011E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +48,8 @@
 		BCAD7DE422062451000011E5 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
 		BCAD7DE722062451000011E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCAD7DE922062451000011E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCB534FC224178F9006A8766 /* PuzzleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PuzzleView.xib; sourceTree = "<group>"; };
+		BCB534FE2241793F006A8766 /* PuzzleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +93,6 @@
 		BCAD7DD12206244F000011E5 = {
 			isa = PBXGroup;
 			children = (
-				BCA1E9A2222F157A003BA2B4 /* HintArrays.swift */,
 				BCAD7DDC2206244F000011E5 /* DNRFishGame */,
 				BCAD7DDB2206244F000011E5 /* Products */,
 			);
@@ -114,7 +113,9 @@
 				3FFE84F022189FF600FA379E /* Fish */,
 				BCAD7DDD2206244F000011E5 /* AppDelegate.swift */,
 				BCAD7DDF2206244F000011E5 /* ViewController.swift */,
+				BCB534FE2241793F006A8766 /* PuzzleView.swift */,
 				BCAD7DE12206244F000011E5 /* Main.storyboard */,
+				BCB534FC224178F9006A8766 /* PuzzleView.xib */,
 				BCAD7DE422062451000011E5 /* Assets */,
 				BCAD7DE622062451000011E5 /* LaunchScreen.storyboard */,
 				BCAD7DE922062451000011E5 /* Info.plist */,
@@ -184,6 +185,7 @@
 				3F8354DA222F1D4600BFA45E /* Muskellunge.png in Resources */,
 				3F8354D7222F1D4600BFA45E /* Atlantic Salmon (Cleaned).png in Resources */,
 				3F8354D8222F1D4600BFA45E /* Walleye.png in Resources */,
+				BCB534FD224178F9006A8766 /* PuzzleView.xib in Resources */,
 				3F8354D6222F1D4600BFA45E /* Steelhead Trout (Cleaned).png in Resources */,
 				BCAD7DE822062451000011E5 /* LaunchScreen.storyboard in Resources */,
 				3F8354DB222F1D4600BFA45E /* Coho Salmon (Cleaned).png in Resources */,
@@ -205,9 +207,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCB534FF2241793F006A8766 /* PuzzleView.swift in Sources */,
 				BCAD7DE02206244F000011E5 /* ViewController.swift in Sources */,
 				BCAD7DDE2206244F000011E5 /* AppDelegate.swift in Sources */,
-				BCA1E9A3222F157A003BA2B4 /* HintArrays.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
