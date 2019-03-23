@@ -12,8 +12,7 @@ var TOTALFISH = 11
 var MAXFISH = TOTALFISH - 1 //for array use
 var xvalue = 0
 var yvalue = 0
-var xgood = false
-var ygood = false
+var goodplacement = true
 var XMAXBORDER = 840
 var YMAXBORDER = 700
 var fish_to_find = 0
@@ -54,8 +53,21 @@ class FindFish: UIViewController {
         //Randomize Fish Locations
         for i in 0...MAXFISH
         {
-            xvalue = Int.random(in: 0 ... XMAXBORDER)
-            yvalue = Int.random(in: 0 ... YMAXBORDER)
+            repeat
+            {
+                goodplacement = true
+                xvalue = Int.random(in: 0 ... XMAXBORDER)
+                yvalue = Int.random(in: 0 ... YMAXBORDER)
+            
+                for j in 0...MAXFISH
+                {
+                    if((xvalue >= xlocations[j] - 250 && xvalue <= xlocations[j] + 250)
+                        && (yvalue >= ylocations[j] - 75 && yvalue <= ylocations[j] + 75))
+                    {
+                        goodplacement = false
+                    }
+                }
+            }while(!goodplacement)
             
             xlocations[i] = xvalue
             ylocations[i] = yvalue
