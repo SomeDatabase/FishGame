@@ -20,6 +20,7 @@ var fish_to_find = 0
 var xlocations = Array(repeating: -1, count: TOTALFISH)
 var ylocations = Array(repeating: -1, count: TOTALFISH)
 let fish = ["Atlantic Salmon", "Brook Trout", "Brown Trout", "Chinook Salmon", "Coho Salmon", "Lake Sturgeon", "Lake Trout", "Muskellunge", "Rainbow Trout", "Steelhead Trout", "Walleye"]
+let fishimages = ["Atlantic Salmon (Cleaned).png", "Brook Trout (Cleaned).png", "Brown Trout (Cleaned).png", "Chinook Salmon (Cleaned).png", "Coho Salmon (Cleaned).png", "Lake Sturgeon.png", "Lake Trout (Cleaned).png", "Muskellunge.png", "Rainbow Trout (Cleaned).png", "Steelhead Trout (Cleaned).png", "Walleye.png"]
 
 class FindFish: UIViewController {
     
@@ -27,7 +28,6 @@ class FindFish: UIViewController {
     @IBOutlet weak var textfield: UILabel!
     @IBOutlet weak var playagain: UIButton!
     @IBOutlet weak var home: UIButton!
-    @IBOutlet weak var targetfish: UILabel!
     @IBOutlet weak var AtlanticSalmon: UIButton!
     @IBOutlet weak var BrookTrout: UIButton!
     @IBOutlet weak var BrownTrout: UIButton!
@@ -39,6 +39,8 @@ class FindFish: UIViewController {
     @IBOutlet weak var RainbowTrout: UIButton!
     @IBOutlet weak var SteelheadTrout: UIButton!
     @IBOutlet weak var Walleye: UIButton!
+    @IBOutlet weak var FishHelp: UIImageView!
+    @IBOutlet weak var FishHelpTxt: UILabel!
     
     func setupgame()
     {
@@ -74,7 +76,8 @@ class FindFish: UIViewController {
         
         //Determine which fish to find and then display information
         fish_to_find = Int.random(in: 0 ... MAXFISH)
-        targetfish.text = "Find Fish: \(fish[fish_to_find])"
+        FishHelpTxt.text = "I am called \(fish[fish_to_find]). Can you find me?"
+        FishHelp.image = UIImage(named: fishimages[fish_to_find])
     }
     
     override func viewDidLoad() {
