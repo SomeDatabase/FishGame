@@ -8,13 +8,16 @@
 
 import UIKit
 
+let screenWidth  = UIScreen.main.bounds.width
+let screenHeight = UIScreen.main.bounds.height
+
 var TOTALFISH = 11
 var MAXFISH = TOTALFISH - 1 //for array use
 var xvalue = 0
 var yvalue = 0
 var goodplacement = true
-var XMAXBORDER = 840
-var YMAXBORDER = 570
+var XMAXBORDER = Int(screenWidth) - 250
+var YMAXBORDER = Int(screenHeight) - 200
 var fish_to_find = 0
 var xlocations = Array(repeating: -1, count: TOTALFISH)
 var ylocations = Array(repeating: -1, count: TOTALFISH)
