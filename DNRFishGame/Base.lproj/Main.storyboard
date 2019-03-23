@@ -78,14 +78,6 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLh-j7-UeD">
-                                <rect key="frame" x="33" y="99" width="250" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Atlantic Salmon (Cleaned).png"/>
-                                <connections>
-                                    <action selector="SelectFish0:" destination="fkx-7C-FDy" eventType="touchUpInside" id="4z4-FO-1Qs"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CKG-hy-Ptx">
                                 <rect key="frame" x="568" y="100" width="250" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -223,6 +215,14 @@
                                 <rect key="frame" x="20" y="686" width="250" height="128"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLh-j7-UeD">
+                                <rect key="frame" x="33" y="99" width="250" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Atlantic Salmon (Cleaned).png"/>
+                                <connections>
+                                    <action selector="SelectFish0:" destination="fkx-7C-FDy" eventType="touchUpInside" id="4z4-FO-1Qs"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="6A0-w0-czj"/>
