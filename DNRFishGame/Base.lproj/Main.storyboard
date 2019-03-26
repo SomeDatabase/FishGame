@@ -142,14 +142,6 @@
                                     <action selector="SelectFish8:" destination="fkx-7C-FDy" eventType="touchUpInside" id="JOm-fn-qGf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="16h-Ia-PQX">
-                                <rect key="frame" x="33" y="422" width="250" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Steelhead Trout (Cleaned).png"/>
-                                <connections>
-                                    <action selector="SelectFish9:" destination="fkx-7C-FDy" eventType="touchUpInside" id="awl-yj-6dL"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Re0-sZ-t8W">
                                 <rect key="frame" x="300" y="422" width="250" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -223,6 +215,14 @@
                                 <rect key="frame" x="20" y="686" width="250" height="128"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="16h-Ia-PQX">
+                                <rect key="frame" x="33" y="422" width="250" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Steelhead Trout (Cleaned).png"/>
+                                <connections>
+                                    <action selector="SelectFish9:" destination="fkx-7C-FDy" eventType="touchUpInside" id="awl-yj-6dL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="6A0-w0-czj"/>
