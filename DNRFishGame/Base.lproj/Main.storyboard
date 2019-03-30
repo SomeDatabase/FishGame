@@ -2188,12 +2188,21 @@ Lake sturgeon eggs have been collected annually in a 1.5 km stretch of the Upper
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image45.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="1bn-cI-vwE">
-                                <rect key="frame" x="20" y="253" width="519" height="367"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="663" y="227" width="341" height="223"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bSX-Xt-Oub">
+                                <rect key="frame" x="20" y="216" width="623" height="532"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Marquette State Fish Hatchery is home to the Inshore Lean strain of Lake Trout used as the State’s broodstock population.  The founding stock for this population came from Lake Superior in the years of 2001, 2003, and 2004.  Lake Superior has a natural self-sustaining population and there is no need for annual stocking of this species.  Lake’s Huron and Michigan have near natural self-sustaining populations of lake trout and are currently only stocked by the U.S.  Fish and Wildlife Service.  However, most inland lake trout lakes in Michigan do not have natural self-sustaining lake trout populations and require annual stocking events.  The captive broodstock supply eggs and sperm to produce the number of fish needed to restock these inland lakes.  Lake trout have an annual fall spawning cycle (iteroparous species) starting at age seven and can live up to 25 years old.  </mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image18.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="JfG-hv-mXZ">
-                                <rect key="frame" x="649" y="372" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="663" y="519" width="341" height="201"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2202,7 +2211,7 @@ Lake sturgeon eggs have been collected annually in a 1.5 km stretch of the Upper
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tbr-zc-VC8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1804" y="4002"/>
+            <point key="canvasLocation" x="1803.5156249999998" y="4001.5625"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="OaE-3c-2gI">
@@ -2223,10 +2232,6 @@ Lake sturgeon eggs have been collected annually in a 1.5 km stretch of the Upper
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image19.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xNI-au-SaN">
-                                <rect key="frame" x="253" y="254" width="519" height="367"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Egg Take" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="efB-EI-3dA">
                                 <rect key="frame" x="435" y="166" width="155" height="48"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2234,6 +2239,19 @@ Lake sturgeon eggs have been collected annually in a 1.5 km stretch of the Upper
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V3V-9w-TeE">
+                                <rect key="frame" x="20" y="222" width="570" height="526"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">The lake trout egg takes occur, October 1 to November 4, at the hatchery once a week for four weeks.  Fish are temporally put under anesthesia prior to collecting their eggs and sperm.  Once these gametes (reproductive cells) are collected, the fertilization process occurs by crossing one female’s eggs with one male’s sperm and then adding a saline solution to facilitate sperm motility.  Fertilized eggs are then water hardened and disinfected prior to transferring to the hatchery’s incubation room. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image19.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xNI-au-SaN">
+                                <rect key="frame" x="598" y="342" width="406" height="286"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Cd6-GC-S0L"/>
@@ -2241,7 +2259,7 @@ Lake sturgeon eggs have been collected annually in a 1.5 km stretch of the Upper
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fqX-cx-aE1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2454" y="4002"/>
+            <point key="canvasLocation" x="2453.90625" y="4001.5625"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8j0-NT-rCq">
@@ -2262,10 +2280,6 @@ Lake sturgeon eggs have been collected annually in a 1.5 km stretch of the Upper
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image20.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ex7-1N-4UQ">
-                                <rect key="frame" x="253" y="254" width="519" height="367"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Incubation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lMj-io-wGX">
                                 <rect key="frame" x="422" y="166" width="180" height="48"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2273,6 +2287,19 @@ Lake sturgeon eggs have been collected annually in a 1.5 km stretch of the Upper
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E5z-Hk-t08">
+                                <rect key="frame" x="20" y="230" width="518" height="518"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Fertilized eggs are incubated for approximately two months in 8-degree Celsius water before they hatch.  Once hatched, the fry (small hatched fish) will remain in the heath trays for one month or until they have used up their yolk reserves.  At this point the fry are about ready to begin the free feeding/swim-up stage.  The fry are challenged for fitness which removes any unhatched eggs or unhealthy fish that may cause fish health concerns at later stages. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image20.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ex7-1N-4UQ">
+                                <rect key="frame" x="571" y="344" width="433" height="290"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="K7A-sN-j6s"/>
@@ -2280,7 +2307,7 @@ Lake sturgeon eggs have been collected annually in a 1.5 km stretch of the Upper
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W6V-nI-3GR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3094" y="4002"/>
+            <point key="canvasLocation" x="3093.75" y="4001.5625"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="BaK-sG-wrB">
@@ -2301,10 +2328,6 @@ Lake sturgeon eggs have been collected annually in a 1.5 km stretch of the Upper
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image21.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="NBQ-HB-ET2">
-                                <rect key="frame" x="253" y="254" width="519" height="367"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fry Tanking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQm-DC-z19">
                                 <rect key="frame" x="415" y="166" width="195" height="48"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2312,6 +2335,19 @@ Lake sturgeon eggs have been collected annually in a 1.5 km stretch of the Upper
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pKB-VP-OYa">
+                                <rect key="frame" x="20" y="228" width="465" height="520"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Once fry are ready to begin feeding, they are enumerated and tanked.  Tanking requires mixing fry from all the different egg take dates of that year to insure good genetic variation among the many tank populations in the hatchery.  This insures that future stocking sites also get a mixed genetic population of fish.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image21.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="NBQ-HB-ET2">
+                                <rect key="frame" x="493" y="305" width="519" height="367"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="yKU-ag-f1Y"/>
@@ -2319,7 +2355,7 @@ Lake sturgeon eggs have been collected annually in a 1.5 km stretch of the Upper
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fVd-fe-hCY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3728" y="4002"/>
+            <point key="canvasLocation" x="3727.7343749999995" y="4001.5625"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rw2-XJ-nRP">
@@ -2340,10 +2376,6 @@ Lake sturgeon eggs have been collected annually in a 1.5 km stretch of the Upper
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image22.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="SuC-YB-qfk">
-                                <rect key="frame" x="253" y="254" width="519" height="367"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Feeding" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UZd-vh-HsD">
                                 <rect key="frame" x="443" y="166" width="138" height="48"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2351,6 +2383,19 @@ Lake sturgeon eggs have been collected annually in a 1.5 km stretch of the Upper
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ue-Lh-C2u">
+                                <rect key="frame" x="20" y="228" width="477" height="520"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Typically, fish begin feeding within a week after being tanked.  Feed particle sizes start small and increase with the growth of the fish.  Growth rate is dependent on water temperature.  Lake trout are held in the hatchery or outside raceways for approximately 15 months before they are large enough to be stocked as yearling sized fish.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image22.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="SuC-YB-qfk">
+                                <rect key="frame" x="517" y="317" width="487" height="343"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="pMB-Lf-zYU"/>
@@ -2358,7 +2403,7 @@ Lake sturgeon eggs have been collected annually in a 1.5 km stretch of the Upper
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UFn-os-EXd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4371" y="4002"/>
+            <point key="canvasLocation" x="4370.5078125" y="4001.5625"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="mlI-zb-NZW">
@@ -2379,10 +2424,6 @@ Lake sturgeon eggs have been collected annually in a 1.5 km stretch of the Upper
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image23.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="is7-o4-cCh">
-                                <rect key="frame" x="253" y="254" width="519" height="367"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stocking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jWn-ft-PQ6">
                                 <rect key="frame" x="437" y="166" width="151" height="48"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2390,6 +2431,19 @@ Lake sturgeon eggs have been collected annually in a 1.5 km stretch of the Upper
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k4E-nC-w4X">
+                                <rect key="frame" x="20" y="224" width="507" height="524"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Once the lake trout are ready to be stocked as yearlings, they are loaded on to specialized stocking vehicles and distributed to stocking locations all over the state.  The fish are loaded on to the trucks by using a fish safe pump which moves fish and water from rearing tanks in the stocking trucks.  Each truck has critical life support equipment, including oxygen supplies and circulation pumps which ensure safe hauling conditions for the fish during the stocking trip.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image23.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="is7-o4-cCh">
+                                <rect key="frame" x="532" y="323" width="472" height="327"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="euz-IY-oYs"/>
@@ -2397,7 +2451,7 @@ Lake sturgeon eggs have been collected annually in a 1.5 km stretch of the Upper
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cM5-SR-YFq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5002" y="4002"/>
+            <point key="canvasLocation" x="5001.5625" y="4001.5625"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="HwY-3E-IUI">
