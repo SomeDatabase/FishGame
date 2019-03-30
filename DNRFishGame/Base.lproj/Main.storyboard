@@ -450,10 +450,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image46.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xDm-hy-1cy">
-                                <rect key="frame" x="253" y="274" width="519" height="367"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Broodstock and Egg Take" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yE9-8M-Kru">
                                 <rect key="frame" x="297" y="166" width="431" height="48"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -461,6 +457,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QIJ-xG-U65">
+                                <rect key="frame" x="30" y="245" width="563" height="503"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Faculty, students, volunteers and DNR collect Atlantic salmon feral broodstock on the St. Mary’s River at Lake Superior State University (LSSU). A closely monitored gill net captures fish. Adults are then carefully transferred to the holding tanks at the LSSU facility, to allow for the fish to ripen. Fish are spawned later by crossing one female and male. Post spawn adults are returned to the river where they recover, out-migrate, and can make another spawning run in the years to come.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image46.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xDm-hy-1cy">
+                                <rect key="frame" x="620" y="281" width="384" height="431"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="dyk-D7-nyt"/>
@@ -577,10 +586,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image48.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4c2-E7-6oJ">
-                                <rect key="frame" x="253" y="274" width="519" height="367"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Incubation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A7y-Xv-QPB">
                                 <rect key="frame" x="422" y="166" width="180" height="48"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -588,6 +593,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mxk-T0-xDi">
+                                <rect key="frame" x="20" y="247" width="411" height="501"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Eggs incubate for approximately two months before hatching occurs. At that time fry are kept in incubators until they have absorbed their yolk reserves. At normal incubation temperatures, hatch to full yolk absorption takes about three to five weeks.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image48.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4c2-E7-6oJ">
+                                <rect key="frame" x="475" y="314" width="519" height="367"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="TST-vU-kAu"/>
@@ -595,7 +613,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zTr-md-b21" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2454" y="75"/>
+            <point key="canvasLocation" x="2453.90625" y="75"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="grQ-mo-nFP">
@@ -616,10 +634,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image47.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="nie-As-9rd">
-                                <rect key="frame" x="253" y="274" width="519" height="367"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fry Tanking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AXI-Sm-Pji">
                                 <rect key="frame" x="415" y="166" width="195" height="48"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -627,6 +641,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="teV-Jh-W60">
+                                <rect key="frame" x="20" y="257" width="441" height="491"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Fry are gone through one last time just before tanking to remove any dead eggs and underdeveloped or deformed fry. This cleaning ensures the receiving tanks stay as hygienic as possible. Most fry remain on the bottom of the tanks for weeks before occupying the water column above. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image47.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="nie-As-9rd">
+                                <rect key="frame" x="485" y="319" width="519" height="367"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="cTv-yx-XDM"/>
@@ -634,7 +661,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2PT-P5-Mg2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3094" y="75"/>
+            <point key="canvasLocation" x="3093.75" y="75"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tod-EP-SOl">
@@ -655,10 +682,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image50.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="grw-MJ-K6j">
-                                <rect key="frame" x="253" y="274" width="519" height="367"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Feeding" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="73U-63-jvw">
                                 <rect key="frame" x="443" y="166" width="138" height="48"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -666,6 +689,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7FC-GH-loH">
+                                <rect key="frame" x="20" y="273" width="448" height="475"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Fry start feeding within the first days of being tanked. Small feed particles are initially introduced but feed sizes increase along with larger daily rations.  Atlantic salmon are grown to different stages for different management actions including inland lake stocking of fall fingerlings and Great Lakes stocking of yearlings.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image50.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="grw-MJ-K6j">
+                                <rect key="frame" x="485" y="327" width="519" height="367"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="NS8-pw-QgZ"/>
@@ -673,7 +709,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EKl-8d-vT9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3728" y="75"/>
+            <point key="canvasLocation" x="3727.7343749999995" y="75"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Yxw-6l-QKI">
@@ -701,6 +737,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kkb-Wl-UvF">
+                                <rect key="frame" x="96" y="250" width="832" height="463"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Atlantic salmon fall fingerlings are currently used to stock inland locations such as Torch Lake (Antrim County).  While fall fingerlings are approximately one year old at their time of release, yearlings are approximately a year and half old at their time of release.  These yearlings are used for Great Lakes stocking in the Lake Huron watershed and have partially replaced the highly sought-after salmon fishery after the collapse of the Alewives and Chinook in the early 2000s.  </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="wPe-ZU-WDR"/>
@@ -708,7 +753,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fkU-fb-isR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4371" y="75"/>
+            <point key="canvasLocation" x="4370.5078125" y="75"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Oi1-OC-RF4">
@@ -729,10 +774,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image49.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="299-El-8P4">
-                                <rect key="frame" x="253" y="274" width="519" height="367"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Broodstock" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jcf-f3-AQ7">
                                 <rect key="frame" x="415" y="166" width="195" height="48"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -740,6 +781,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HCj-oo-CMq">
+                                <rect key="frame" x="20" y="222" width="635" height="526"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Many of Michigan’s brook trout rivers and streams carry a natural self-sustaining population and there is no need for fish stocking.  However, most brook trout lakes do not have natural self-sustaining populations and require annual fish stocking events.   Marquette State Fish Hatchery is home to the Assinica strain brook trout broodstock population. These fish are the captive broodstock which supply eggs and sperm to produce the number of fish needed to restock these inland lakes and a few supplemental river stockings.  Brook trout have an annual fall spawning cycle (iteroparous species) starting at age two and can live up to six years old. </mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image49.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="299-El-8P4">
+                                <rect key="frame" x="663" y="337" width="341" height="254"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="eMa-jK-vip"/>
@@ -747,7 +801,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XNq-rJ-VYh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1804" y="725"/>
+            <point key="canvasLocation" x="1803.5156249999998" y="725"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ReM-vK-EZp">
@@ -768,10 +822,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image19.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="UA2-6e-H09">
-                                <rect key="frame" x="253" y="274" width="519" height="367"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Egg Take" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Hf-Dn-c63">
                                 <rect key="frame" x="435" y="166" width="155" height="48"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -779,6 +829,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="puq-we-JKC">
+                                <rect key="frame" x="20" y="234" width="581" height="514"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">The brook trout egg takes occur, October 18 to November 20, at the hatchery once a week for four weeks.  Fish are temporally put under anesthesia prior to collecting their eggs and sperm.  Once these gametes (reproductive cells) are collected, the fertilization process occurs by crossing one female’s eggs with one male’s sperm and then adding a saline solution to facilitate sperm motility.  Fertilized eggs are then water hardened and disinfected prior to transferring to the hatchery’s incubation room. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image19.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="UA2-6e-H09">
+                                <rect key="frame" x="619" y="352" width="385" height="278"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="bT4-Nq-1aZ"/>
@@ -786,7 +849,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hMg-pL-yXQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2454" y="725"/>
+            <point key="canvasLocation" x="2453.90625" y="725"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="1e9-YW-Fon">
@@ -807,10 +870,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image20.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="OF0-Hb-t75">
-                                <rect key="frame" x="253" y="274" width="519" height="367"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Incubation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4uW-R3-d5p">
                                 <rect key="frame" x="422" y="166" width="180" height="48"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -818,6 +877,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hj9-68-cgd">
+                                <rect key="frame" x="20" y="242" width="517" height="506"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Fertilized eggs are incubated for approximately two months in 8-degree Celsius water before they hatch.  Once hatched, the fry (small hatched fish) will remain in the heath trays for one month or until they have used up their yolk reserves.  At this point the fry are about ready to begin the free feeding/swim-up stage.  The fry are challenged for fitness which removes any unhatched eggs or unhealthy fish that may cause fish health concerns at later stages. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image20.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="OF0-Hb-t75">
+                                <rect key="frame" x="560" y="340" width="444" height="310"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="RfD-5c-bjI"/>
@@ -825,7 +897,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lle-vc-wrG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3094" y="725"/>
+            <point key="canvasLocation" x="3093.75" y="725"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="s2h-GC-X1G">
@@ -846,10 +918,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image21.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Dnn-g2-YyB">
-                                <rect key="frame" x="253" y="274" width="519" height="367"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fry Tanking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fq7-6W-MWT">
                                 <rect key="frame" x="415" y="166" width="195" height="48"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -857,6 +925,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wtp-iL-NT2">
+                                <rect key="frame" x="20" y="265" width="457" height="483"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Once fry are ready to begin feeding, they are enumerated and tanked.  Tanking requires mixing fry from all the different egg take dates of that year to insure good genetic variation among the many tank populations in the hatchery.  This insures that future stocking sites also get a mixed genetic population of fish.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image21.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Dnn-g2-YyB">
+                                <rect key="frame" x="485" y="323" width="519" height="367"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ElK-FU-Scu"/>
@@ -864,7 +945,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Clr-hM-uz0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3728" y="725"/>
+            <point key="canvasLocation" x="3727.7343749999995" y="725"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="3Ch-yP-XFV">
@@ -885,10 +966,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image22.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ikw-Uo-gPu">
-                                <rect key="frame" x="253" y="274" width="519" height="367"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Feeding" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mcs-Lu-Ijd">
                                 <rect key="frame" x="443" y="166" width="138" height="48"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -896,6 +973,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e6I-Eb-pyc">
+                                <rect key="frame" x="20" y="254" width="442" height="494"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Typically, fish begin feeding within a week after being tanked.  Feed particle sizes start small and increase with the growth of the fish.  Growth rate is dependent on water temperature.  Brook trout are held in the hatchery or outside raceways for approximately 15 months before they are large enough to be stocked as yearling sized fish.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image22.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ikw-Uo-gPu">
+                                <rect key="frame" x="485" y="318" width="519" height="367"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="YRk-9P-d11"/>
@@ -903,7 +993,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FQA-82-pMO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4371" y="725"/>
+            <point key="canvasLocation" x="4370.5078125" y="725"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="mDT-ZP-Deh">
@@ -924,10 +1014,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image23.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="JwH-fu-fVX">
-                                <rect key="frame" x="253" y="274" width="519" height="367"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stocking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zko-2v-eTz">
                                 <rect key="frame" x="437" y="166" width="151" height="48"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -935,6 +1021,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ynx-Kt-X5D">
+                                <rect key="frame" x="20" y="245" width="498" height="503"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Once the brook trout are ready to be stocked as yearlings, they are loaded on to specialized stocking vehicles and distributed to stocking locations all over the state.  The fish are loaded on to the trucks by using a fish safe pump which moves fish and water from rearing tanks in the stocking trucks.  Each truck has critical life support equipment, including oxygen supplies and circulation pumps which ensure safe hauling conditions for the fish during the stocking trip.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image23.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="JwH-fu-fVX">
+                                <rect key="frame" x="535" y="340" width="469" height="312"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="J71-Ws-Dhn"/>
@@ -942,7 +1041,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aAg-WM-juF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5002" y="725"/>
+            <point key="canvasLocation" x="5001.5625" y="725"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gTI-L6-bki">
@@ -970,13 +1069,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image56.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="t3C-EU-lL7">
-                                <rect key="frame" x="32" y="248" width="519" height="367"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image58.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ZeS-aX-Gy8">
-                                <rect key="frame" x="698" y="367" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="691" y="33" width="288" height="179"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2e9-7T-dbz">
+                                <rect key="frame" x="20" y="224" width="984" height="524"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Surprisingly, brown trout are not native to Michigan or even North America but were introduced from Europe over 100 years ago.  In some locations of Michigan, like the Pigeon River, they thrived and have been able to maintain viable populations without assistance. Many areas in the state aren’t so lucky because they are missing some part of habitat that a wild population needs to survive, typically it’s spawning areas or nursery habitat needed by the fry.  In situations like that, we can keep a healthy population by stocking, which requires a broodstock to supply the eggs. This is most easily accomplished for brown trout by having a captive brood, where the adults are kept protected for three to five years so their eggs can be collected and fertilized, during spawning.  Typically, spawning occurs in autumn or early winter for brown trout. All of the brown trout Michigan DNR stocks were spawned at Oden State Fish Hatchery, located near Petoskey, which holds two different strains of brown trout, the Wild Rose strain and Sturgeon River strain.  Broodstock for each group are quite different, with Wild Rose growing much faster and being more tolerant to disturbances.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image56.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="t3C-EU-lL7">
+                                <rect key="frame" x="32" y="32" width="285" height="180"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -985,7 +1093,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iys-rG-4Fa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1804" y="1383"/>
+            <point key="canvasLocation" x="1803.5156249999998" y="1382.8125"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="W7n-W0-3fV">
@@ -1006,10 +1114,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image9.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ei7-k5-CGg">
-                                <rect key="frame" x="253" y="254" width="519" height="367"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Spawning" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W9b-OE-1VT">
                                 <rect key="frame" x="427" y="166" width="170" height="48"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1017,6 +1121,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wpc-2r-wJX">
+                                <rect key="frame" x="20" y="222" width="984" height="526"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">As the adults mature, happening when they are 3-5 year-olds, brown trout are spawned once every other week over a six week period.  The Wild Rose strain, which were obtained from a hatchery in Wisconsin, starts spawning at the end of September and finish at the end of October, typically producing about 2,500 eggs per female.  Sturgeon River brown trout, which were obtained from a naturalized Michigan population, naturally spawn in Late November and December, produce about 1,200 eggs per female. To get the eggs, anesthesia is used so the fish can be easily and safely handled.  If a female is ready to spawn, her belly will feel soft, giggling like it’s full of jelly. If she is not ready, her belly will be firm, much like a football.  By pushing the belly of the fish with their hands, Fisheries Technicians collect the eggs from each female in a separate small bucket. (At this point, the eggs are not really round, but are more like a deflated ball or a loose bag of jelly.  They are just dehydrated, which allows the female to hold more eggs and make the eggs easier to come out of the fish.)  A small amount of milt, containing the sperm, is added from a random male, which is also collected by hand.  A saltwater solution is then added, which increases sperm motility and helps keep a small structure on the eggs, called a micropyle, open so the sperm can more easily fertilize it.  After fertilization, the saltwater is rinsed away and the eggs are put into an iodine bath to disinfect the outer portion of the egg. This keeps many different diseases from spreading from the adults to the offspring.  While in this bath, the eggs start absorbing water quickly, becoming round and hard, like a small marble or B-B.  This is known as a water-hardened egg.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image9.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ei7-k5-CGg">
+                                <rect key="frame" x="691" y="20" width="300" height="197"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="8qT-og-ckl"/>
@@ -1024,7 +1141,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xCr-0z-TE2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2454" y="1383"/>
+            <point key="canvasLocation" x="2453.90625" y="1382.8125"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Ybe-jm-bv2">
@@ -1045,10 +1162,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image10.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="l6c-Fl-zPQ">
-                                <rect key="frame" x="253" y="254" width="519" height="367"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Incubation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Rb-NA-42V">
                                 <rect key="frame" x="422" y="166" width="180" height="48"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1056,6 +1169,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Syq-H4-X5N">
+                                <rect key="frame" x="20" y="211" width="984" height="537"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Once eggs are water-hardened, they are ready to be loaded into incubators.  At this point, they have stopped absorbing water.  Because their size and weight have stabilized, the population can now be estimated.  To do this, eggs are measured by placing a sample of counted eggs into a graduated cylinder of water and measuring the change in volume.  From this, we calculate how many eggs it takes to displace a liter of water, and then measure the liters of water displaced by all of the eggs spawned that day.  While the population is estimated, they are also loaded into incubators, which are designed to force water to upwell thru the eggs, quite similar to what would be happening in the gravel of a stream.  After 24 hours, cell division begins and the eggs become fragile to handling, which lasts up until the eyes are well formed, a stage of development known as eyed-eggs or eyed.  Because they are so fragile until they are eyed, the eggs are left undisturbed to incubate. The water at Oden is cold, a constant temperature of 45.7oF, which means development is slowed.  At this temperature, it will take the eggs a month before eyes develop and another two weeks before they hatch.  Once eyed, we safely handle the eggs, which makes any dead eggs turn white but leaves the living eggs s pinkish-orange color.  All dead eggs can then be removed by picking them out with a machine that will pull out any white eggs.  All live eggs are then either returned to the incubators where they will hatch in a few days or they are transferred to Harrietta State Fish Hatchery to finish incubating.  After hatch, they will spend another month and a half in the incubator, further developing and receiving all nourishment from a yolk sac.  Eventually, they use all of the yolk and begin swimming off of the bottom, looking for food. This is known as swimming-up or swim-up and when it happens, it is time to take them out of incubation.   </mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image10.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="l6c-Fl-zPQ">
+                                <rect key="frame" x="710" y="20" width="247" height="183"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="zBe-f3-0CD"/>
@@ -1063,7 +1189,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IPZ-K6-EX6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3094" y="1383"/>
+            <point key="canvasLocation" x="3093.75" y="1382.8125"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wBE-wU-R3d">
@@ -1084,10 +1210,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image63.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="V3D-R2-B9m">
-                                <rect key="frame" x="253" y="254" width="519" height="367"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nursery" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QPs-ec-b2A">
                                 <rect key="frame" x="445" y="166" width="135" height="48"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1095,6 +1217,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="opE-3C-axL">
+                                <rect key="frame" x="20" y="240" width="984" height="508"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">At swim-up, the population of the fry are again estimated, and they are placed into large mesh baskets floating in nursery tanks. For the first few weeks, the fish are pretty weak swimmers, so the baskets help keep them close to the food, which is fed by hand.  Because these baskets keep the fish close to the surface, they also allow Fisheries Technicians to clean and easily remove any dead fish.  After a few weeks, when they are starting to eat well, the brown trout are released into the tank.  Brown trout prefer a lot of structure and will typically spend most of their time on or near the bottom, especially when they are very young.  They will spend about six months in the nursery, being fed with a small automatic vibrating feeder every 20 minutes and having the tank cleaned thoroughly every day.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image63.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="V3D-R2-B9m">
+                                <rect key="frame" x="699" y="20" width="305" height="232"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="WwG-Xe-oBu"/>
@@ -1102,7 +1237,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NnR-le-s7S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3728" y="1383"/>
+            <point key="canvasLocation" x="3727.7343749999995" y="1382.8125"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="C8P-Am-jJc">
@@ -1130,6 +1265,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KvT-wm-4gD">
+                                <rect key="frame" x="57" y="261" width="910" height="444"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Typically, fish begin feeding within a week after being tanked.  Feed particle sizes start with small, powdery feeds and increases in size with the growth of the fish, eventually reaching pellets that are up to 3 mm in diameter.  Feeding rates are calculated daily using the biomass of fish to feed and water temperature.  Normally, with Oden’s cold water, brown trout are being fed 0.6% to 0.75% of their body weight every day.  When they are very young, all fish are hand fed hourly.  As they grow a bit, automatic vibrating feeders are used to drop feed into the tanks every 20 minutes. </mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="1KQ-Mm-4Vi"/>
@@ -1137,7 +1281,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l8W-89-vQl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4371" y="1383"/>
+            <point key="canvasLocation" x="4370.5078125" y="1382.8125"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="cZa-Jh-i7S">
@@ -1158,10 +1302,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image65.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ysy-sY-8MP">
-                                <rect key="frame" x="253" y="254" width="519" height="367"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Production Raceways" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Co2-Xc-2hD">
                                 <rect key="frame" x="328" y="166" width="368" height="48"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1169,6 +1309,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9YK-EQ-ff9">
+                                <rect key="frame" x="20" y="233" width="630" height="515"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">After about 6 months in the nursery, the fish become too large to be easily reared in the nursery.  Because they have outgrown the space, they are moved to very large outdoor raceway tanks, where they will be reared until the following spring, typically 10-11 months after being moved from the nursery.  Here, large automatic feeders travel the length of the raceways and spread the daily ration of feed.   By April, a year and half after they were spawned, Wild Rose brown trout will be about 7-8” long and Sturgeon River brown trout will be about 5 ½” to 6” long.  At this point, they are ready to be stocked, and are known as yearlings.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image65.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ysy-sY-8MP">
+                                <rect key="frame" x="684" y="374" width="320" height="232"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="R5r-AB-i9l"/>
@@ -1176,7 +1329,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xjk-bk-jda" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5002" y="1383"/>
+            <point key="canvasLocation" x="5001.5625" y="1382.8125"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="1fi-pd-pwu">
@@ -1205,12 +1358,21 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image55.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="gZ6-EK-AOb">
-                                <rect key="frame" x="20" y="251" width="519" height="367"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="728" y="509" width="286" height="207"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OwX-s4-uJ9">
+                                <rect key="frame" x="20" y="228" width="710" height="520"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Once brown trout are ready to be stocked, as yearlings, they are loaded on to specialized stocking trucks and distributed to stocking locations all over the state.  The stocking locations, strain of brown trout, and number to stock are determined by Fisheries Biologist in DNR management units across the state.  Based on those Biologist requests, the number of brown trout needed for a stocking site is loaded onto a truck,  weighing them as they are loaded, and using a specialized fish pump that’s designed to safely lift the fish onto the trucks.  Each truck has critical life support equipment, including circulation pumps and oxygen supplied from liquid oxygen tanks.  These ensure safe hauling conditions for the fish during the stocking trip.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image67.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="WkD-Al-Kjb">
-                                <rect key="frame" x="657" y="370" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="738" y="277" width="266" height="166"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1219,7 +1381,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eCR-DY-wQT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5642" y="1383"/>
+            <point key="canvasLocation" x="5641.9921875" y="1382.8125"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="QEu-gq-CQG">
@@ -1240,10 +1402,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image68.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="EgQ-4I-o6V">
-                                <rect key="frame" x="253" y="254" width="519" height="367"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Broodstock" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bb6-1b-TF6">
                                 <rect key="frame" x="415" y="166" width="195" height="48"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1251,6 +1409,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7eN-Zn-eWb">
+                                <rect key="frame" x="20" y="259" width="611" height="489"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Adult Chinook salmon collections occur on the Little Manistee and Swan Rivers, with the Little Manistee River weir being the primary location for these efforts.  The majority of fish returning to spawn once called these rivers home as juveniles, because they have the ability to use their sense of smell to come back to the same sections of rivers from which their parents spawned.  Spawning migrations begin as early as July or August and typically conclude in November of each year.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image68.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="EgQ-4I-o6V">
+                                <rect key="frame" x="639" y="389" width="365" height="228"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="3ox-1f-jDB"/>
@@ -1258,7 +1429,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eSO-Ep-3LL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1804" y="2036"/>
+            <point key="canvasLocation" x="1803.5156249999998" y="2035.9375"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="00a-tX-kJ7">
@@ -3126,13 +3297,13 @@
         <image name="image17.png" width="238" height="237"/>
         <image name="image18.jpg" width="1164" height="873"/>
         <image name="image19.jpg" width="640" height="480"/>
-        <image name="image2.jpg" width="833" height="575"/>
+        <image name="image2.jpg" width="575" height="833"/>
         <image name="image20.jpg" width="860" height="573"/>
         <image name="image21.jpg" width="828" height="552"/>
         <image name="image22.jpg" width="300" height="224"/>
         <image name="image23.jpg" width="897" height="666"/>
         <image name="image24.jpg" width="730" height="487"/>
-        <image name="image25.jpg" width="1006" height="566"/>
+        <image name="image25.jpg" width="566" height="1006"/>
         <image name="image26.jpg" width="733" height="438"/>
         <image name="image27.jpg" width="699" height="550"/>
         <image name="image28.jpg" width="836" height="556"/>
@@ -3146,7 +3317,7 @@
         <image name="image35.jpg" width="1024" height="768"/>
         <image name="image36.jpg" width="576" height="801"/>
         <image name="image37.jpg" width="317" height="238"/>
-        <image name="image38.jpg" width="763" height="537"/>
+        <image name="image38.jpg" width="537" height="763"/>
         <image name="image39.jpg" width="186" height="248"/>
         <image name="image4.jpg" width="536" height="707"/>
         <image name="image40.jpg" width="629" height="472"/>
@@ -3155,8 +3326,8 @@
         <image name="image43.jpg" width="194" height="260"/>
         <image name="image44.jpg" width="308" height="232"/>
         <image name="image45.jpg" width="640" height="480"/>
-        <image name="image46.jpg" width="1431" height="1073"/>
-        <image name="image47.jpg" width="599" height="450"/>
+        <image name="image46.jpg" width="1073" height="1431"/>
+        <image name="image47.jpg" width="450" height="599"/>
         <image name="image48.jpg" width="1199" height="899"/>
         <image name="image49.jpg" width="1031" height="574"/>
         <image name="image5.jpg" width="670" height="364"/>
@@ -3172,11 +3343,11 @@
         <image name="image59.jpg" width="633" height="475"/>
         <image name="image6.jpg" width="530" height="397"/>
         <image name="image60.jpg" width="730" height="548"/>
-        <image name="image62.jpg" width="731" height="549"/>
+        <image name="image62.jpg" width="549" height="731"/>
         <image name="image63.jpg" width="728" height="546"/>
-        <image name="image64.jpg" width="734" height="549"/>
+        <image name="image64.jpg" width="549" height="734"/>
         <image name="image65.jpg" width="849" height="637"/>
-        <image name="image66.jpg" width="731" height="549"/>
+        <image name="image66.jpg" width="549" height="731"/>
         <image name="image67.jpg" width="1429" height="1069"/>
         <image name="image68.jpg" width="1024" height="576"/>
         <image name="image69.jpg" width="600" height="400"/>
