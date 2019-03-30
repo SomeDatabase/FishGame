@@ -1982,16 +1982,27 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image17.png" translatesAutoresizingMaskIntoConstraints="NO" id="W44-7q-aRB">
-                                <rect key="frame" x="20" y="253" width="519" height="367"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image12.png" translatesAutoresizingMaskIntoConstraints="NO" id="PiT-Cs-Nt2">
-                                <rect key="frame" x="685" y="239" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="703" y="0.0" width="321" height="158"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image11.png" translatesAutoresizingMaskIntoConstraints="NO" id="xhS-EP-fRC">
-                                <rect key="frame" x="685" y="511" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="0.0" y="0.0" width="270" height="186"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U47-Dp-RIs">
+                                <rect key="frame" x="20" y="214" width="745" height="534"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Lake sturgeon are “Lithophilic spawners” which means during spawning, eggs are broadcast onto rocks and into crevices on the river bottom.  Once in contact with water, a sialic acid mediated chemical reaction hydrolyzes compounds on the egg surface creating an adhesive property, which allows eggs to become ‘sticky’ and adhere to rocks during incubation.   Spawning adults neither build a nest for egg cover, nor care for the developing offspring.  Hatching may take 5-12 days dependent upon water temperature.  Typically, eggs that incubate in colder temperatures take several days longer to hatch than those incubated in warmer temperatures.
+Lake sturgeon eggs have been collected annually in a 1.5 km stretch of the Upper Black River annually since 2003 (Figure 1). During the period extending from Mid-April to Early-June, adult Lake Sturgeon migrate ~7 known spawning grounds at a ratio of 2.89 males: 1 female, spawning over boulders and large cobble, particularly those with large interstitial space for eggs to rest out of reach from sight predators. Black River crew members float the known spawning grounds daily capturing sturgeon in large dip-nets. After capture and collection of biological data, gametes are collected from ripe, often actively spawning adult lake sturgeon, kept dry, and returned to the hatchery where they are fertilized in the presence of river water. 
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image12.png" translatesAutoresizingMaskIntoConstraints="NO" id="PiT-Cs-Nt2">
+                                <rect key="frame" x="773" y="264" width="240" height="435"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2000,7 +2011,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D5u-GJ-Qz2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1804" y="3342"/>
+            <point key="canvasLocation" x="1803.5156249999998" y="3341.40625"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="bf1-fS-AAp">
@@ -2021,18 +2032,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image13.png" translatesAutoresizingMaskIntoConstraints="NO" id="gyH-mO-AvB">
-                                <rect key="frame" x="38" y="256" width="519" height="367"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image14.png" translatesAutoresizingMaskIntoConstraints="NO" id="9LQ-3k-uhX">
-                                <rect key="frame" x="681" y="235" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image15.png" translatesAutoresizingMaskIntoConstraints="NO" id="Dr4-hp-Zvg">
-                                <rect key="frame" x="681" y="509" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Incubation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s0q-re-TRg">
                                 <rect key="frame" x="422" y="166" width="180" height="48"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2040,6 +2039,27 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image13.png" translatesAutoresizingMaskIntoConstraints="NO" id="gyH-mO-AvB">
+                                <rect key="frame" x="610" y="312" width="311" height="211"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image15.png" translatesAutoresizingMaskIntoConstraints="NO" id="Dr4-hp-Zvg">
+                                <rect key="frame" x="703" y="531" width="301" height="217"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zfk-qG-6Ue">
+                                <rect key="frame" x="20" y="219" width="582" height="529"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Managers are increasingly relying of stream-side trailers and more permanent stream-side hatcheries for sturgeon production.  Managers believe that rearing eggs and larvae during informative early life stages is important to allow individuals to ‘imprint’ on streams they will be released in. Because lake sturgeon may not reach sexual maturity for 15-20 years, caution is warranted when implementing restoration strategies to ensure fish will return to the streams in which they were released.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image14.png" translatesAutoresizingMaskIntoConstraints="NO" id="9LQ-3k-uhX">
+                                <rect key="frame" x="703" y="110" width="301" height="194"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="nWX-g1-KEJ"/>
@@ -2047,7 +2067,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0US-Qx-6bC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2454" y="3341"/>
+            <point key="canvasLocation" x="2453.90625" y="3340.625"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="NMW-OL-mxG">
@@ -2075,6 +2095,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QnQ-DV-Zjb">
+                                <rect key="frame" x="62" y="231" width="900" height="493"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Following hatch, Lake Sturgeon free embryos are sorted into 3-L rectangular aquaria. Research conducted by Michigan State University indicates that feed consumption in 3-L aquaria exceeds 90%, which reduces feed-training mortality, and encourages feed conversion during the first five weeks. During the first five weeks, until fish reach ~0.4 g, larval Sturgeon are fed a diet of brine shrimp, cultured daily. Sturgeon rely on movement sensed by their barbels to find live feed. During the first weeks of life, Sturgeon will specific cue on live feeds, and struggle to consume formulated feed. After week five, Lake Sturgeon switch to frozen blood worms (Chironomid larvae), which they consume until they are released at ~200mm. </mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="qZj-7E-JSo"/>
@@ -2082,7 +2111,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bt1-zy-7Cb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3094" y="3341"/>
+            <point key="canvasLocation" x="3093.75" y="3340.625"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Kju-H2-doT">
@@ -2103,10 +2132,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image16.png" translatesAutoresizingMaskIntoConstraints="NO" id="0LH-QE-cmv">
-                                <rect key="frame" x="253" y="254" width="519" height="367"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stocking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NH9-7J-8Ew">
                                 <rect key="frame" x="437" y="166" width="151" height="48"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2114,6 +2139,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="38c-5M-yWV">
+                                <rect key="frame" x="20" y="230" width="525" height="518"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">During the month of August, fall fingerling Lake Sturgeon at tagged with 12mm 134khz PIT tags. After tagging, 500 sturgeon are released into the Black River, 500 sturgeon are released into Mullet Lake, and 500 sturgeon are released into each of four rivers in the Saginaw River drainage. Fish which exceed 150mm survive at a rate approaching 90% during the first winter, while year-to-year survival after the first winter exceeds 95%. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image16.png" translatesAutoresizingMaskIntoConstraints="NO" id="0LH-QE-cmv">
+                                <rect key="frame" x="571" y="257" width="433" height="464"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6De-im-MwB"/>
@@ -2121,7 +2159,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="brJ-Ex-ntP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3728" y="3341"/>
+            <point key="canvasLocation" x="3727.7343749999995" y="3340.625"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="mC1-dt-1k7">
