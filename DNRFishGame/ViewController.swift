@@ -27,6 +27,7 @@ let fishimages = ["Atlantic Salmon (Cleaned).png", "Brook Trout (Cleaned).png", 
 class FindFish: UIViewController {
     
     //Create Outlets
+    @IBOutlet weak var GJBackground: UILabel!
     @IBOutlet weak var textfield: UILabel!
     @IBOutlet weak var playagain: UIButton!
     @IBOutlet weak var home: UIButton!
@@ -52,6 +53,7 @@ class FindFish: UIViewController {
         home.isHidden = true
         playagain.isEnabled = false
         home.isEnabled = false
+        GJBackground.isHidden = true
         
         //Randomize Fish Locations
         for i in 0...MAXFISH
@@ -122,6 +124,7 @@ class FindFish: UIViewController {
             playagain.isEnabled = true
             home.isHidden = false
             home.isEnabled = true
+            GJBackground.isHidden = false
         }
     }
     
@@ -134,6 +137,7 @@ class FindFish: UIViewController {
             playagain.isEnabled = true
             home.isHidden = false
             home.isEnabled = true
+            GJBackground.isHidden = false
         }
     }
     
@@ -146,6 +150,7 @@ class FindFish: UIViewController {
             playagain.isEnabled = true
             home.isHidden = false
             home.isEnabled = true
+            GJBackground.isHidden = false
         }
     }
     
@@ -158,6 +163,7 @@ class FindFish: UIViewController {
             playagain.isEnabled = true
             home.isHidden = false
             home.isEnabled = true
+            GJBackground.isHidden = false
         }
     }
     
@@ -170,6 +176,7 @@ class FindFish: UIViewController {
             playagain.isEnabled = true
             home.isHidden = false
             home.isEnabled = true
+            GJBackground.isHidden = false
         }
     }
     
@@ -182,6 +189,7 @@ class FindFish: UIViewController {
             playagain.isEnabled = true
             home.isHidden = false
             home.isEnabled = true
+            GJBackground.isHidden = false
         }
     }
     
@@ -194,6 +202,7 @@ class FindFish: UIViewController {
             playagain.isEnabled = true
             home.isHidden = false
             home.isEnabled = true
+            GJBackground.isHidden = false
         }
     }
     
@@ -206,6 +215,7 @@ class FindFish: UIViewController {
             playagain.isEnabled = true
             home.isHidden = false
             home.isEnabled = true
+            GJBackground.isHidden = false
         }
     }
     
@@ -218,6 +228,7 @@ class FindFish: UIViewController {
             playagain.isEnabled = true
             home.isHidden = false
             home.isEnabled = true
+            GJBackground.isHidden = false
         }
     }
     
@@ -230,6 +241,7 @@ class FindFish: UIViewController {
             playagain.isEnabled = true
             home.isHidden = false
             home.isEnabled = true
+            GJBackground.isHidden = false
         }
     }
     
@@ -242,6 +254,7 @@ class FindFish: UIViewController {
             playagain.isEnabled = true
             home.isHidden = false
             home.isEnabled = true
+            GJBackground.isHidden = false
         }
     }
 }
@@ -282,7 +295,7 @@ class FishPuzzle: UIViewController {
     }
     func selectTarget()
     {
-        for i in 0..11
+        for i in 0...11
         {
             //select a random number
             if (i == 0)
