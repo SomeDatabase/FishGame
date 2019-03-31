@@ -87,6 +87,17 @@
 		3FFC79F5224FE3B3009F9DCF /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FFC79B0224FE3B2009F9DCF /* image3.jpg */; };
 		3FFC79F6224FE3B3009F9DCF /* image28.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FFC79B1224FE3B2009F9DCF /* image28.jpg */; };
 		3FFC79F7224FE3B3009F9DCF /* image58.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FFC79B2224FE3B3009F9DCF /* image58.jpg */; };
+		3FFC79F922502E22009F9DCF /* AtlanticSalmonPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC79F822502E22009F9DCF /* AtlanticSalmonPage.swift */; };
+		3FFC79FB225039DC009F9DCF /* BrookTroutPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC79FA225039DC009F9DCF /* BrookTroutPage.swift */; };
+		3FFC79FD22503A16009F9DCF /* BrownTroutPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC79FC22503A16009F9DCF /* BrownTroutPage.swift */; };
+		3FFC79FF22503A3D009F9DCF /* ChinookSalmonPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC79FE22503A3D009F9DCF /* ChinookSalmonPage.swift */; };
+		3FFC7A0122503A5F009F9DCF /* CohoSalmonPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC7A0022503A5F009F9DCF /* CohoSalmonPage.swift */; };
+		3FFC7A0322503A90009F9DCF /* LakeSturgeonPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC7A0222503A90009F9DCF /* LakeSturgeonPage.swift */; };
+		3FFC7A0522503AB4009F9DCF /* LakeTroutPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC7A0422503AB4009F9DCF /* LakeTroutPage.swift */; };
+		3FFC7A0722503AD9009F9DCF /* MuskellungePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC7A0622503AD9009F9DCF /* MuskellungePage.swift */; };
+		3FFC7A0922503AFE009F9DCF /* RainbowTroutPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC7A0822503AFE009F9DCF /* RainbowTroutPage.swift */; };
+		3FFC7A0B22503B21009F9DCF /* SteelheadTroutPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC7A0A22503B21009F9DCF /* SteelheadTroutPage.swift */; };
+		3FFC7A0D22503B40009F9DCF /* WalleyePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC7A0C22503B40009F9DCF /* WalleyePage.swift */; };
 		3FFE84F22218A05700FA379E /* underwater.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFE84F12218A05700FA379E /* underwater.png */; };
 		BCAD7DDE2206244F000011E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD7DDD2206244F000011E5 /* AppDelegate.swift */; };
 		BCAD7DE02206244F000011E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD7DDF2206244F000011E5 /* ViewController.swift */; };
@@ -178,6 +189,17 @@
 		3FFC79B0224FE3B2009F9DCF /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
 		3FFC79B1224FE3B2009F9DCF /* image28.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image28.jpg; sourceTree = "<group>"; };
 		3FFC79B2224FE3B3009F9DCF /* image58.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image58.jpg; sourceTree = "<group>"; };
+		3FFC79F822502E22009F9DCF /* AtlanticSalmonPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtlanticSalmonPage.swift; sourceTree = "<group>"; };
+		3FFC79FA225039DC009F9DCF /* BrookTroutPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrookTroutPage.swift; sourceTree = "<group>"; };
+		3FFC79FC22503A16009F9DCF /* BrownTroutPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrownTroutPage.swift; sourceTree = "<group>"; };
+		3FFC79FE22503A3D009F9DCF /* ChinookSalmonPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChinookSalmonPage.swift; sourceTree = "<group>"; };
+		3FFC7A0022503A5F009F9DCF /* CohoSalmonPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CohoSalmonPage.swift; sourceTree = "<group>"; };
+		3FFC7A0222503A90009F9DCF /* LakeSturgeonPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LakeSturgeonPage.swift; sourceTree = "<group>"; };
+		3FFC7A0422503AB4009F9DCF /* LakeTroutPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LakeTroutPage.swift; sourceTree = "<group>"; };
+		3FFC7A0622503AD9009F9DCF /* MuskellungePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuskellungePage.swift; sourceTree = "<group>"; };
+		3FFC7A0822503AFE009F9DCF /* RainbowTroutPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowTroutPage.swift; sourceTree = "<group>"; };
+		3FFC7A0A22503B21009F9DCF /* SteelheadTroutPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteelheadTroutPage.swift; sourceTree = "<group>"; };
+		3FFC7A0C22503B40009F9DCF /* WalleyePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalleyePage.swift; sourceTree = "<group>"; };
 		3FFE84F12218A05700FA379E /* underwater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = underwater.png; sourceTree = "<group>"; };
 		BCAD7DDA2206244F000011E5 /* DNRFishGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNRFishGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCAD7DDD2206244F000011E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -330,6 +352,17 @@
 				BCAD7DDF2206244F000011E5 /* ViewController.swift */,
 				BCB534FE2241793F006A8766 /* PuzzleView.swift */,
 				BCAD7DE12206244F000011E5 /* Main.storyboard */,
+				3FFC79F822502E22009F9DCF /* AtlanticSalmonPage.swift */,
+				3FFC79FA225039DC009F9DCF /* BrookTroutPage.swift */,
+				3FFC79FC22503A16009F9DCF /* BrownTroutPage.swift */,
+				3FFC79FE22503A3D009F9DCF /* ChinookSalmonPage.swift */,
+				3FFC7A0022503A5F009F9DCF /* CohoSalmonPage.swift */,
+				3FFC7A0222503A90009F9DCF /* LakeSturgeonPage.swift */,
+				3FFC7A0422503AB4009F9DCF /* LakeTroutPage.swift */,
+				3FFC7A0622503AD9009F9DCF /* MuskellungePage.swift */,
+				3FFC7A0822503AFE009F9DCF /* RainbowTroutPage.swift */,
+				3FFC7A0A22503B21009F9DCF /* SteelheadTroutPage.swift */,
+				3FFC7A0C22503B40009F9DCF /* WalleyePage.swift */,
 				BCB534FC224178F9006A8766 /* PuzzleView.xib */,
 				BCAD7DE422062451000011E5 /* Assets */,
 				BCAD7DE622062451000011E5 /* LaunchScreen.storyboard */,
@@ -491,9 +524,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FFC79FD22503A16009F9DCF /* BrownTroutPage.swift in Sources */,
 				BCB534FF2241793F006A8766 /* PuzzleView.swift in Sources */,
+				3FFC79FF22503A3D009F9DCF /* ChinookSalmonPage.swift in Sources */,
 				BCAD7DE02206244F000011E5 /* ViewController.swift in Sources */,
+				3FFC7A0522503AB4009F9DCF /* LakeTroutPage.swift in Sources */,
+				3FFC79F922502E22009F9DCF /* AtlanticSalmonPage.swift in Sources */,
+				3FFC79FB225039DC009F9DCF /* BrookTroutPage.swift in Sources */,
+				3FFC7A0B22503B21009F9DCF /* SteelheadTroutPage.swift in Sources */,
+				3FFC7A0D22503B40009F9DCF /* WalleyePage.swift in Sources */,
+				3FFC7A0322503A90009F9DCF /* LakeSturgeonPage.swift in Sources */,
 				BCAD7DDE2206244F000011E5 /* AppDelegate.swift in Sources */,
+				3FFC7A0722503AD9009F9DCF /* MuskellungePage.swift in Sources */,
+				3FFC7A0922503AFE009F9DCF /* RainbowTroutPage.swift in Sources */,
+				3FFC7A0122503A5F009F9DCF /* CohoSalmonPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
