@@ -261,9 +261,18 @@ class FindFish: UIViewController {
 
 class FishPuzzle: UIViewController {
 
-    @IBOutlet weak var Fish1: UIImageView!
-    @IBOutlet weak var Fish2: UIImageView!
-    @IBOutlet weak var Fish3: UIImageView!
+    @IBOutlet weak var Fish1: UIButton!
+    @IBOutlet weak var Fish2: UIButton!
+    @IBOutlet weak var Fish3: UIButton!
+    @IBOutlet weak var HintBox: UILabel!
+    @IBOutlet weak var Fish1Name: UILabel!
+    @IBOutlet weak var Fish2Name: UILabel!
+    @IBOutlet weak var Fish3Name: UILabel!
+    
+    func setupGame()
+    {
+        //code for this here
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -279,6 +288,7 @@ class FishPuzzle: UIViewController {
         //arrays to handle the hints
         let aSalmHints = ["I have black spots on my sides, but none on my tail","You can find me in the St. Mary’s River, Lake Huron, or even the St. Clair river,"]
         let bTroutHints = ["I have a long body and a large mouth","I am the state fish of Michigan!","I lay up to 5000 eggs"]
+        let brwnTroutHints = ["In the spring you’ll find me in shallow, rocky areas","The DNR rears me at the Harrieta and Oden State Fish Hatcheries","I prefer warmer weather"]
         let chinSalmonHints = ["I am present in all 5 great lakes","I am known as the King","My primary source of food is alewives"]
         let cohoSalmonHints = ["I have small black spots on my back and tail","I can be caught in Lake Michigan at anytime of the year","I started the Great Lakes salmon fishery"]
         let sturgHints = ["I primarily eat insect larvae, crayfish, snails, clam, and leeches","My typical lifespan is 55 years","I have four barbels on my snout"]
@@ -287,22 +297,101 @@ class FishPuzzle: UIViewController {
         let rnbwTroutHints = ["I have a pink stripe on my body","I primarily live in clear-water lakes throughout Michigan"]
         let stlhdTroutHints = ["I am born in rivers, but spend most of my life in the great lakes","My life expectancy is 4 to 6 years"]
         let wllyHints = ["I spawn in rock shoals","I am a popular choice for sport fishing because I feed all year round"]
-    
-        //AN ARRAY OF ARRAYS!!!!!
-        let fishes = [aSalmHints, bTroutHints,chinSalmonHints, cohoSalmonHints, sturgHints, lkTroutHints, muskHints, rnbwTroutHints, stlhdTroutHints, wllyHints]
-    
-        let targetFish = "";
-    }
-    func selectTarget()
-    {
-        for i in 0...11
+        
+        //dummy variable for the hint
+        var string = ""
+        //selecting a fish
+        
+        let fishNum = Int.random(in: 0...10)
+        var fish2 = Int.random(in: 0...10)
+        if fish2 == fishNum
         {
-            //select a random number
-            if (i == 0)
-            {
-                
-            }
+            //select a new fish if they are the same
+            fish2 = Int.random(in: 0...10)
         }
+        var fish3 = Int.random(in: 0...10)
+        if fish3 == fishNum
+        {
+            fish3 = Int.random(in: 0...10)
+        }
+        
+        //randomly place the 3 fish on the screen
+        let placeHelper = Int.random(in: 1...3)
+        
+        switch (placeHelper) {
+        case 0:
+            Fish1.setImage(UIImage(named: fishimages[fishNum]), for: UIControlState.normal)
+            Fish2.setImage(UIImage(named: fishimages[fish2]), for: UIControlState.normal)
+            Fish3.setImage(UIImage(named: fishimages[fish3]), for: UIControlState.normal)
+            Fish1Name.text = "\(fish[fishNum])"
+            Fish2Name.text = "\(fish[fish2])"
+            Fish3Name.text = "\(fish[fish3])"
+        default:
+            <#code#>
+        }
+        
+        switch (fishNum) {
+        case 0:
+            //fish is atlantic salmon
+            
+            //select a hint
+            string = aSalmHints[Int.random (in: 0...2)]
+        case 1:
+            //fish is brook trout
+            
+            //select a hint
+            string = bTroutHints[Int.random (in: 0...2)]
+        case 2:
+            //fish is brown trout
+          
+            //select a hint
+            string = brwnTroutHints[Int.random (in: 0...2)]
+        case 3:
+            //fish is atlantic salmon
+            
+            //select a hint
+            string = chinSalmonHints[Int.random (in: 0...2)]
+        case 4:
+            //fish is atlantic salmon
+            
+            //select a hint
+            string = cohoSalmonHints[Int.random (in: 0...2)]
+        case 5:
+            //fish is atlantic salmon
+            
+            //select a hint
+            string = sturgHints[Int.random (in: 0...2)]
+        case 6:
+            //fish is atlantic salmon
+            
+            //select a hint
+            string = lkTroutHints[Int.random (in: 0...2)]
+        case 7:
+            //fish is atlantic salmon
+            
+            //select a hint
+            string = muskHints[Int.random (in: 0...2)]
+        case 8:
+            //fish is atlantic salmon
+            
+            //select a hint
+            string = rnbwTroutHints[Int.random (in: 0...2)]
+        case 9:
+            //fish is atlantic salmon
+            
+            //select a hint
+            string = stlhdTroutHints[Int.random (in: 0...2)]
+        case 10:
+            //fish is atlantic salmon
+            
+            //select a hint
+            string = wllyHints[Int.random (in: 0...2)]
+        default:
+            return()
+    
+        }
+    
+        HintBox.text = "\(string)"
     }
     
 }
