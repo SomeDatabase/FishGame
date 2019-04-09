@@ -319,15 +319,29 @@ class FishPuzzle: UIViewController {
         let placeHelper = Int.random(in: 1...3)
         
         switch (placeHelper) {
-        case 0:
+        case 1:
             Fish1.setImage(UIImage(named: fishimages[fishNum]), for: UIControlState.normal)
             Fish2.setImage(UIImage(named: fishimages[fish2]), for: UIControlState.normal)
             Fish3.setImage(UIImage(named: fishimages[fish3]), for: UIControlState.normal)
             Fish1Name.text = "\(fish[fishNum])"
             Fish2Name.text = "\(fish[fish2])"
             Fish3Name.text = "\(fish[fish3])"
+        case 2:
+            Fish1.setImage(UIImage(named: fishimages[fish2]), for: UIControlState.normal)
+            Fish2.setImage(UIImage(named: fishimages[fishNum]), for: UIControlState.normal)
+            Fish3.setImage(UIImage(named: fishimages[fish3]), for: UIControlState.normal)
+            Fish1Name.text = "\(fish[fishNum])"
+            Fish2Name.text = "\(fish[fish2])"
+            Fish3Name.text = "\(fish[fish3])"
+        case 3:
+            Fish1.setImage(UIImage(named: fishimages[fish3]), for: UIControlState.normal)
+            Fish2.setImage(UIImage(named: fishimages[fish2]), for: UIControlState.normal)
+            Fish3.setImage(UIImage(named: fishimages[fishNum]), for: UIControlState.normal)
+            Fish1Name.text = "\(fish[fishNum])"
+            Fish2Name.text = "\(fish[fish2])"
+            Fish3Name.text = "\(fish[fish3])"
         default:
-            <#code#>
+            return()
         }
         
         switch (fishNum) {
@@ -347,42 +361,42 @@ class FishPuzzle: UIViewController {
             //select a hint
             string = brwnTroutHints[Int.random (in: 0...2)]
         case 3:
-            //fish is atlantic salmon
+            //fish is chinook salmon
             
             //select a hint
             string = chinSalmonHints[Int.random (in: 0...2)]
         case 4:
-            //fish is atlantic salmon
+            //fish is coho salmon
             
             //select a hint
             string = cohoSalmonHints[Int.random (in: 0...2)]
         case 5:
-            //fish is atlantic salmon
+            //fish is sturgeon
             
             //select a hint
             string = sturgHints[Int.random (in: 0...2)]
         case 6:
-            //fish is atlantic salmon
+            //fish is lake trout
             
             //select a hint
             string = lkTroutHints[Int.random (in: 0...2)]
         case 7:
-            //fish is atlantic salmon
+            //fish is muskellenge
             
             //select a hint
             string = muskHints[Int.random (in: 0...2)]
         case 8:
-            //fish is atlantic salmon
+            //fish is rainbow trout
             
             //select a hint
             string = rnbwTroutHints[Int.random (in: 0...2)]
         case 9:
-            //fish is atlantic salmon
+            //fish is steelhead trout
             
             //select a hint
             string = stlhdTroutHints[Int.random (in: 0...2)]
         case 10:
-            //fish is atlantic salmon
+            //fish is walleye
             
             //select a hint
             string = wllyHints[Int.random (in: 0...2)]
@@ -393,7 +407,7 @@ class FishPuzzle: UIViewController {
     
         HintBox.text = "\(string)"
     }
-    
+    //@IBAction func(sender: any)
 }
     
 
