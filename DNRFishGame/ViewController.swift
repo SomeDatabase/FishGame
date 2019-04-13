@@ -299,7 +299,7 @@ class FishPuzzle: UIViewController {
     func initFishData()
     {
         //arrays to handle the hints
-        let aSalmHints = ["I have black spots on my sides, but none on my tail","You can find me in the St. Mary’s River, Lake Huron, or even the St. Clair river,","I am one of the most prized game fish in the world"]
+        let aSalmHints = ["I have black spots on my sides, but none on my tail","You can find me in the St. Mary’s River, Lake Huron, or even the St. Clair river.","I am one of the most prized game fish in the world"]
         let bTroutHints = ["I have a long body and a large mouth","I am the state fish of Michigan!","I lay up to 5000 eggs"]
         let brwnTroutHints = ["In the spring you’ll find me in shallow, rocky areas","The DNR rears me at the Harrieta and Oden State Fish Hatcheries","I prefer warmer weather"]
         let chinSalmonHints = ["I am present in all 5 great lakes","I am known as the King","My primary source of food is alewives"]
