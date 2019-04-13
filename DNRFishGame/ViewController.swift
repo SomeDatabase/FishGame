@@ -24,11 +24,6 @@ var ylocations = Array(repeating: -1, count: TOTALFISH)
 let fish = ["Atlantic Salmon", "Brook Trout", "Brown Trout", "Chinook Salmon", "Coho Salmon", "Lake Sturgeon", "Lake Trout", "Muskellunge", "Rainbow Trout", "Steelhead Trout", "Walleye"]
 let fishimages = ["Atlantic Salmon (Cleaned).png", "Brook Trout (Cleaned).png", "Brown Trout (Cleaned).png", "Chinook Salmon (Cleaned).png", "Coho Salmon (Cleaned).png", "Lake Sturgeon.png", "Lake Trout (Cleaned).png", "Muskellunge.png", "Rainbow Trout (Cleaned).png", "Steelhead Trout (Cleaned).png", "Walleye.png"]
 
-//fish puzzle variables
-//declare fish nums
-let fishNum = Int.random(in: 0...10)
-
-
 class FindFish: UIViewController {
     
     //Create Outlets
@@ -264,6 +259,10 @@ class FindFish: UIViewController {
     }
 }
 
+//fish puzzle variables
+//declare fish nums
+var placeHelper = 0
+
 class FishPuzzle: UIViewController {
     
 
@@ -310,6 +309,9 @@ class FishPuzzle: UIViewController {
         let rnbwTroutHints = ["I have a pink stripe on my body","I primarily live in clear-water lakes throughout Michigan"]
         let stlhdTroutHints = ["I am born in rivers, but spend most of my life in the great lakes","My life expectancy is 4 to 6 years"]
         let wllyHints = ["I spawn in rock shoals","I am a popular choice for sport fishing because I feed all year round"]
+        var fishNum = 0
+        var fish2 = 0
+        var fish3 = 0
         
         greyBox.isHidden = true
         congrats.isHidden = true
@@ -321,20 +323,20 @@ class FishPuzzle: UIViewController {
         //dummy variable for the hint
         var string = ""
         //selecting a fish
-        var fish2 = Int.random(in: 0...10)
-        if fish2 == fishNum
+        fishNum = Int.random(in: 0...10)
+        
+        repeat
         {
-            //select a new fish if they are the same
             fish2 = Int.random(in: 0...10)
-        }
-        var fish3 = Int.random(in: 0...10)
-        if fish3 == fishNum
+        } while (fish2 == fishNum)
+
+        repeat
         {
             fish3 = Int.random(in: 0...10)
-        }
+        } while (fish3 == fishNum || fish3 == fish2)
         
         //randomly place the 3 fish on the screen
-        let placeHelper = Int.random(in: 1...3)
+        placeHelper = Int.random(in: 1...3)
         
         switch (placeHelper) {
         case 1:
@@ -348,16 +350,16 @@ class FishPuzzle: UIViewController {
             Fish1.setImage(UIImage(named: fishimages[fish2]), for: UIControlState.normal)
             Fish2.setImage(UIImage(named: fishimages[fishNum]), for: UIControlState.normal)
             Fish3.setImage(UIImage(named: fishimages[fish3]), for: UIControlState.normal)
-            Fish1Name.text = "\(fish[fishNum])"
-            Fish2Name.text = "\(fish[fish2])"
+            Fish1Name.text = "\(fish[fish2])"
+            Fish2Name.text = "\(fish[fishNum])"
             Fish3Name.text = "\(fish[fish3])"
         case 3:
             Fish1.setImage(UIImage(named: fishimages[fish3]), for: UIControlState.normal)
             Fish2.setImage(UIImage(named: fishimages[fish2]), for: UIControlState.normal)
             Fish3.setImage(UIImage(named: fishimages[fishNum]), for: UIControlState.normal)
-            Fish1Name.text = "\(fish[fishNum])"
+            Fish1Name.text = "\(fish[fish3])"
             Fish2Name.text = "\(fish[fish2])"
-            Fish3Name.text = "\(fish[fish3])"
+            Fish3Name.text = "\(fish[fishNum])"
         default:
             return()
         }
@@ -429,7 +431,7 @@ class FishPuzzle: UIViewController {
     @IBAction func selectPos0 (_ sender: Any)
     {
         //if you selected the correct fish
-        if(fishNum == 0)
+        if(placeHelper == 0)
         {
             greyBox.isHidden = false
             congrats.isHidden = false
@@ -442,7 +444,7 @@ class FishPuzzle: UIViewController {
     @IBAction func selectPos1 (_ sender: Any)
     {
         //if you selected the correct fish
-        if(fishNum == 1)
+        if(placeHelper == 1)
         {
             greyBox.isHidden = false
             congrats.isHidden = false
@@ -455,7 +457,7 @@ class FishPuzzle: UIViewController {
     @IBAction func selectPos2 (_ sender: Any)
     {
         //if you selected the correct fish
-        if(fishNum == 2)
+        if(placeHelper == 2)
         {
             greyBox.isHidden = false
             congrats.isHidden = false
