@@ -94,7 +94,7 @@ class FindFish: UIViewController {
         //Determine which fish to find and then display information
         fish_to_find = Int.random(in: 0 ... MAXFISH)
         FishHelpTxt.text = "I am called \(fish[fish_to_find]). Can you find me?"
-        FishHelp.image = UIImage(named: fishimages[fish_to_find])
+        FishHelp.image = UIImage(named: fishimages[fish_to_find], for: UIControlState.normal)
     }
     
     override func viewDidLoad() {
