@@ -281,16 +281,25 @@
                                 <rect key="frame" x="58" y="334" width="250" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Atlantic Salmon (Cleaned).png"/>
+                                <connections>
+                                    <action selector="selectPos0:" destination="cMO-4r-Bev" eventType="touchUpInside" id="XBg-fc-Qq3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yrf-Lu-yZZ">
                                 <rect key="frame" x="398" y="334" width="250" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Atlantic Salmon (Cleaned).png"/>
+                                <connections>
+                                    <action selector="selectPos1:" destination="cMO-4r-Bev" eventType="touchUpInside" id="Zwt-hw-QTj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nq7-qL-e1d">
                                 <rect key="frame" x="731" y="335" width="250" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Atlantic Salmon (Cleaned).png"/>
+                                <connections>
+                                    <action selector="selectPos2:" destination="cMO-4r-Bev" eventType="touchUpInside" id="n3p-aX-hlv"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BfG-HT-veP">
                                 <rect key="frame" x="20" y="633" width="984" height="48"/>
