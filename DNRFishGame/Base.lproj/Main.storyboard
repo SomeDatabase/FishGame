@@ -353,14 +353,20 @@
                                 <state key="normal" title="Play Again">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="Restart:" destination="cMO-4r-Bev" eventType="touchUpInside" id="ezw-Oy-TWd"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WL7-KQ-AJk">
                                 <rect key="frame" x="557" y="260" width="172" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="47"/>
-                                <state key="normal" title="Quit">
+                                <state key="normal" title="Home">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="showDetail" id="XhZ-2M-LDo"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -4052,6 +4058,6 @@ Lake sturgeon eggs have been collected annually in a 1.5 km stretch of the Upper
         <image name="underwater.png" width="1920" height="1080"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="sIR-MS-t0n"/>
+        <segue reference="XhZ-2M-LDo"/>
     </inferredMetricsTieBreakers>
 </document>

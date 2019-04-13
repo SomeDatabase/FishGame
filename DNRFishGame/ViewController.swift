@@ -289,10 +289,7 @@ class FishPuzzle: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        greyBox.isHidden = true
-        congrats.isHidden = true
-        playAgain.isHidden = true
-        quit.isHidden = true
+        initFishData()
     }
     
     override func didReceiveMemoryWarning() {
@@ -313,6 +310,13 @@ class FishPuzzle: UIViewController {
         let rnbwTroutHints = ["I have a pink stripe on my body","I primarily live in clear-water lakes throughout Michigan"]
         let stlhdTroutHints = ["I am born in rivers, but spend most of my life in the great lakes","My life expectancy is 4 to 6 years"]
         let wllyHints = ["I spawn in rock shoals","I am a popular choice for sport fishing because I feed all year round"]
+        
+        greyBox.isHidden = true
+        congrats.isHidden = true
+        playAgain.isHidden = true
+        quit.isHidden = true
+        playAgain.isEnabled = false
+        quit.isEnabled = false
         
         //dummy variable for the hint
         var string = ""
@@ -421,6 +425,7 @@ class FishPuzzle: UIViewController {
     
         HintBox.text = "\(string)"
     }
+    
     @IBAction func selectPos0 (_ sender: Any)
     {
         //if you selected the correct fish
@@ -430,7 +435,8 @@ class FishPuzzle: UIViewController {
             congrats.isHidden = false
             playAgain.isHidden = false
             quit.isHidden = false
-    
+            playAgain.isEnabled = true
+            quit.isEnabled = true
         }
     }
     @IBAction func selectPos1 (_ sender: Any)
@@ -442,7 +448,8 @@ class FishPuzzle: UIViewController {
             congrats.isHidden = false
             playAgain.isHidden = false
             quit.isHidden = false
-            
+            playAgain.isEnabled = true
+            quit.isEnabled = true
         }
     }
     @IBAction func selectPos2 (_ sender: Any)
@@ -454,8 +461,12 @@ class FishPuzzle: UIViewController {
             congrats.isHidden = false
             playAgain.isHidden = false
             quit.isHidden = false
-            
+            playAgain.isEnabled = true
+            quit.isEnabled = true
         }
+    }
+    @IBAction func Restart(_ sender: Any) {
+        initFishData()
     }
 }
     
