@@ -98,7 +98,7 @@
 		3FFC7A0922503AFE009F9DCF /* RainbowTroutPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC7A0822503AFE009F9DCF /* RainbowTroutPage.swift */; };
 		3FFC7A0B22503B21009F9DCF /* SteelheadTroutPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC7A0A22503B21009F9DCF /* SteelheadTroutPage.swift */; };
 		3FFC7A0D22503B40009F9DCF /* WalleyePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC7A0C22503B40009F9DCF /* WalleyePage.swift */; };
-		3FFE84F22218A05700FA379E /* underwater.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFE84F12218A05700FA379E /* underwater.png */; };
+		3FFE84F22218A05700FA379E /* underwater.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FFE84F12218A05700FA379E /* underwater.jpg */; };
 		BCACC25E2262769300B5D20A /* dnr-234square_641122_7.png in Resources */ = {isa = PBXBuildFile; fileRef = BCACC25D2262769200B5D20A /* dnr-234square_641122_7.png */; };
 		BCAD7DDE2206244F000011E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD7DDD2206244F000011E5 /* AppDelegate.swift */; };
 		BCAD7DE02206244F000011E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD7DDF2206244F000011E5 /* ViewController.swift */; };
@@ -201,7 +201,7 @@
 		3FFC7A0822503AFE009F9DCF /* RainbowTroutPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowTroutPage.swift; sourceTree = "<group>"; };
 		3FFC7A0A22503B21009F9DCF /* SteelheadTroutPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteelheadTroutPage.swift; sourceTree = "<group>"; };
 		3FFC7A0C22503B40009F9DCF /* WalleyePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalleyePage.swift; sourceTree = "<group>"; };
-		3FFE84F12218A05700FA379E /* underwater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = underwater.png; sourceTree = "<group>"; };
+		3FFE84F12218A05700FA379E /* underwater.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = underwater.jpg; sourceTree = "<group>"; };
 		BCACC25D2262769200B5D20A /* dnr-234square_641122_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dnr-234square_641122_7.png"; sourceTree = "<group>"; };
 		BCAD7DDA2206244F000011E5 /* DNRFishGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNRFishGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCAD7DDD2206244F000011E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -324,7 +324,7 @@
 			isa = PBXGroup;
 			children = (
 				BCACC25D2262769200B5D20A /* dnr-234square_641122_7.png */,
-				3FFE84F12218A05700FA379E /* underwater.png */,
+				3FFE84F12218A05700FA379E /* underwater.jpg */,
 			);
 			path = Backgrounds;
 			sourceTree = "<group>";
@@ -471,7 +471,7 @@
 				3FFC79F3224FE3B3009F9DCF /* image39.jpg in Resources */,
 				3FFC79D4224FE3B3009F9DCF /* image61.jpg in Resources */,
 				3FFC79E6224FE3B3009F9DCF /* image50.jpg in Resources */,
-				3FFE84F22218A05700FA379E /* underwater.png in Resources */,
+				3FFE84F22218A05700FA379E /* underwater.jpg in Resources */,
 				3FFC79D6224FE3B3009F9DCF /* image12.png in Resources */,
 				3FFC79CD224FE3B3009F9DCF /* image30.jpg in Resources */,
 				3FFC79C5224FE3B3009F9DCF /* image31.jpg in Resources */,
