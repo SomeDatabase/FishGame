@@ -24,6 +24,11 @@ var ylocations = Array(repeating: -1, count: TOTALFISH)
 let fish = ["Atlantic Salmon", "Brook Trout", "Brown Trout", "Chinook Salmon", "Coho Salmon", "Lake Sturgeon", "Lake Trout", "Muskellunge", "Rainbow Trout", "Steelhead Trout", "Walleye"]
 let fishimages = ["Atlantic Salmon (Cleaned).png", "Brook Trout (Cleaned).png", "Brown Trout (Cleaned).png", "Chinook Salmon (Cleaned).png", "Coho Salmon (Cleaned).png", "Lake Sturgeon.png", "Lake Trout (Cleaned).png", "Muskellunge.png", "Rainbow Trout (Cleaned).png", "Steelhead Trout (Cleaned).png", "Walleye.png"]
 
+//fish puzzle variables
+//declare fish nums
+let fishNum = Int.random(in: 0...10)
+
+
 class FindFish: UIViewController {
     
     //Create Outlets
@@ -260,6 +265,9 @@ class FindFish: UIViewController {
 }
 
 class FishPuzzle: UIViewController {
+    
+
+    //iboutlets
 
     @IBOutlet weak var Fish1: UIButton!
     @IBOutlet weak var Fish2: UIButton!
@@ -268,6 +276,10 @@ class FishPuzzle: UIViewController {
     @IBOutlet weak var Fish1Name: UILabel!
     @IBOutlet weak var Fish2Name: UILabel!
     @IBOutlet weak var Fish3Name: UILabel!
+    @IBOutlet weak var greyBox: UILabel!
+    @IBOutlet weak var congrats: UILabel!
+    @IBOutlet weak var playAgain: UIButton!
+    @IBOutlet weak var quit: UIButton!
     
     func setupGame()
     {
@@ -277,6 +289,10 @@ class FishPuzzle: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        greyBox.isHidden = true
+        congrats.isHidden = true
+        playAgain.isHidden = true
+        quit.isHidden = true
     }
     
     override func didReceiveMemoryWarning() {
@@ -301,8 +317,6 @@ class FishPuzzle: UIViewController {
         //dummy variable for the hint
         var string = ""
         //selecting a fish
-        
-        let fishNum = Int.random(in: 0...10)
         var fish2 = Int.random(in: 0...10)
         if fish2 == fishNum
         {
@@ -407,7 +421,42 @@ class FishPuzzle: UIViewController {
     
         HintBox.text = "\(string)"
     }
-    //@IBAction func(sender: any)
+    @IBAction func selectPos0 (_ sender: Any)
+    {
+        //if you selected the correct fish
+        if(fishNum == 0)
+        {
+            greyBox.isHidden = false
+            congrats.isHidden = false
+            playAgain.isHidden = false
+            quit.isHidden = false
+    
+        }
+    }
+    @IBAction func selectPos1 (_ sender: Any)
+    {
+        //if you selected the correct fish
+        if(fishNum == 1)
+        {
+            greyBox.isHidden = false
+            congrats.isHidden = false
+            playAgain.isHidden = false
+            quit.isHidden = false
+            
+        }
+    }
+    @IBAction func selectPos2 (_ sender: Any)
+    {
+        //if you selected the correct fish
+        if(fishNum == 2)
+        {
+            greyBox.isHidden = false
+            congrats.isHidden = false
+            playAgain.isHidden = false
+            quit.isHidden = false
+            
+        }
+    }
 }
     
 
