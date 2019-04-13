@@ -323,16 +323,16 @@ class FishPuzzle: UIViewController {
         //dummy variable for the hint
         var string = ""
         //selecting a fish
-        fishNum = Int.random(in: 0...10)
+        fishNum = Int.random(in: 0...MAXFISH)
         
         repeat
         {
-            fish2 = Int.random(in: 0...10)
+            fish2 = Int.random(in: 0...MAXFISH)
         } while (fish2 == fishNum)
 
         repeat
         {
-            fish3 = Int.random(in: 0...10)
+            fish3 = Int.random(in: 0...MAXFISH)
         } while (fish3 == fishNum || fish3 == fish2)
         
         //randomly place the 3 fish on the screen
@@ -431,7 +431,7 @@ class FishPuzzle: UIViewController {
     @IBAction func selectPos0 (_ sender: Any)
     {
         //if you selected the correct fish
-        if(placeHelper == 0)
+        if(placeHelper == 1)
         {
             greyBox.isHidden = false
             congrats.isHidden = false
@@ -444,7 +444,7 @@ class FishPuzzle: UIViewController {
     @IBAction func selectPos1 (_ sender: Any)
     {
         //if you selected the correct fish
-        if(placeHelper == 1)
+        if(placeHelper == 2)
         {
             greyBox.isHidden = false
             congrats.isHidden = false
@@ -457,7 +457,7 @@ class FishPuzzle: UIViewController {
     @IBAction func selectPos2 (_ sender: Any)
     {
         //if you selected the correct fish
-        if(placeHelper == 2)
+        if(placeHelper == 3)
         {
             greyBox.isHidden = false
             congrats.isHidden = false
